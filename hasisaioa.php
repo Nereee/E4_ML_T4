@@ -1,36 +1,5 @@
 <?php
     session_start();
-    // DATU BASEAREKIN KONEXIOA
-
-   // Konexioa sortu
-$mysqli = new mysqli("10.5.6.111:3306", "admin", "headmin", "Sphea");
-
-// Konexioa egiaztatu
-if ($mysqli->connect_error) {
-  die("Connection failed: " . $mysqli->connect_error);
-}
-if(isset($_POST['fname'])){
-
-	
-
-    $username = $_POST ["fname"];
-    $password = $_POST ["fpassword"];
-    
-    $_SESSION['username'] = $username;
-    // Prepare and execute the query
-    $sql= "SELECT IdBezeroa FROM Bezeroa WHERE Erabiltzailea='$username' AND Pasahitza ='$password'";
-    $result = $mysqli->query($sql);
-
-    
-
-    // Retrieve data
-    if($result->num_rows > 0){
-        header("Location: tiketa.html");
-    } else {
-        $erroremezua = "Erabiltzailea edo pasahitza ez da zuzena. Mesedez saiatu berriro.";
-    }
-}
-
 ?>
 
 <!DOCTYPE html>
@@ -105,15 +74,22 @@ if(isset($_POST['fname'])){
             </div>
         </div>
     </footer>
-
-    <script>
-        function konprobatulogin() {
-        <?php
-            if (isset($erroremezua)) {
-                echo 'alert("' . $erroremezua . '");';
-            }
-        ?>
-    }
-    </script>
+    <?php
+        error_reporting(0);
+        $username = $_POST["fname"];
+        $password = $_POST["fpassword"];
+        
+        // Konexioa sortu
+        $mysqli = new mysqli("10.5.6.111:3306", $username, $password, "Sphea");
+        
+        // Konexioa egiaztatu
+        if ($mysqli->connect_error) {
+            header("Location: hasisaioa.php");
+        } else {
+            header("Location: tiketa.html");
+        }
+        
+        
+    ?>
 </body>
 </html>
