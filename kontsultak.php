@@ -18,6 +18,11 @@
 
     <?php
     session_start();
+
+    //limpiar sesion
+    if (isset($_GET['role']) && isset($_GET['departamentua'])) {
+        session_unset();
+    }
     // Ruta al archivo XML
     $ruta_xml = "datuak/intra.xml";
 
@@ -58,6 +63,7 @@
         $_SESSION['departamentua'] = $_GET['departamentua'];
         $_SESSION['rol'] = $_GET['rolak'];
     }
+    echo "session: " . $_SESSION['departamentua'] . " " . $_SESSION['rol'] . "<br>";
 
     if ($_SESSION['departamentua'] != "" && $_SESSION['rol'] != "") {
         $departamentua = $_SESSION['departamentua'];
@@ -71,8 +77,10 @@
     function langileakErakutsi($departamentua, $rol)
     {
         $xml = simplexml_load_file("datuak/intra.xml");
-        $langileak = $xml->xpath("/intra/langileak/langilea[departamentua[@id = $departamentua] and rol[@id = $rol]]");
+        $langileak = $xml->xpath("//langileak/langilea[departamentua = '$departamentua' and rola = '$rol']/izena");
+        //$langileak = $xml->xpath("//langileak/langilea[departamentua = '$departamentua' and rol = '$rol']");
         foreach ($langileak as $langilea) {
+            echo "Langilea: <br>";
             echo '<p>' . $langilea->izena . "</p> <br>";
         }
     }
