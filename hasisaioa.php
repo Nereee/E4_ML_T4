@@ -86,7 +86,7 @@
         if ($mysqli->connect_error) {
             header("Location: hasisaioa.php");
         } else {
-            header("Location: tiketa.html");
+            header("Location: main.html");
         }
         
         
