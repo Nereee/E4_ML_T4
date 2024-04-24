@@ -29,7 +29,8 @@ session_start();
         <img src="image/Schotify.png" alt="logoa">
             <ul>
                 <li><a href="main.html">Hasiera</a></li>
-                <li><a href="erregistroa.php">Erregistroa</a></li>
+                <li><a href="departamentuak.php">Departamentuak</a></li>
+                <li><a href="langileak.php">Langileak</a></li>
             </ul>
 
         </nav>
@@ -108,7 +109,7 @@ session_start();
             <div class="kontaktua">
                 <h4>Kontaktua</h4>
                 <i class="fa-solid fa-phone" style="color: #ffffff;"></i> 944 02 80 00
-                <i class="fa-solid fa-envelope"></i> elorrietazinema@gmail.com
+                <i class="fa-solid fa-envelope"></i> schotify.contact@schotify.com
                 <i class="fa-brands fa-instagram fa-sm" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-x-twitter"></i>
                 <i class="fa-brands fa-facebook"></i>

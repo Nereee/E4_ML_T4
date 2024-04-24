@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="eu">
+
 <head>
     <title>Intranet</title>
     <meta name="keywords" content="Elorrieta zinema, zinema, filmak, erreserbak, pelikulak">
@@ -8,8 +9,8 @@
         content="Elorrieta zinemaren webgunea. Hurrengo HTMLa Matrillu-gatik eginda dago zinema baterako.">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
-    <link rel="icon" href="favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="image/Schotify.png" type="image/x-icon">
+    <link rel="icon" href="image/Schotify.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/9b73a90cb7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -67,10 +68,10 @@
         }
         foreach ($langileak as $langilea) {
             echo '<div class="lan"><img class="largazkia" src="' . $langilea->argazkia . '">
-            <p>' . $langilea->izena . " " . $langilea->abizena1 . " " . $langilea->abizena2 ."</p>
+            <p>' . $langilea->izena . " " . $langilea->abizena1 . " " . $langilea->abizena2 . "</p>
             <p>" . $langilea->jaiotze_data . "</p>
-            <p>" . $langilea->bizilekua->herrialdea . ", " .$langilea->bizilekua->provintzia . ", " . $langilea->bizilekua->herria . "
-            <p>" . $langilea->telefonoak->mugikorra ."</div>";
+            <p>" . $langilea->bizilekua->herrialdea . ", " . $langilea->bizilekua->provintzia . ", " . $langilea->bizilekua->herria . "
+            <p>" . $langilea->telefonoak->mugikorra . "</div>";
         }
     }
     ?>
@@ -78,12 +79,13 @@
 
 
 <body>
-<header>
+    <header>
         <nav>
-        <img src="image/Schotify.png" alt="logoa">
+            <img src="image/Schotify.png" alt="logoa">
             <ul>
                 <li><a href="main.html">Hasiera</a></li>
-                <li><a href="erregistroa.php">Erregistroa</a></li>
+                <li><a href="departamentuak.php">Departamentuak</a></li>
+                <li><a href="langileak.php">Langileak</a></li>
             </ul>
 
         </nav>
@@ -130,7 +132,7 @@
                 <h4>Kontaktua</h4>
                 <i class="fa-solid fa-phone" style="color: #ffffff;"></i> 944 02 80 00
                 <br>
-                <i class="fa-solid fa-envelope"></i> elorrietazinema@gmail.com
+                <i class="fa-solid fa-envelope"></i> schotify.contact@schotify.com
                 <br>
                 <a href="URL_de_Instagram" target="_blank">
                     <i class="fa-brands fa-instagram fa-sm" style="color: #ffffff;"></i>
