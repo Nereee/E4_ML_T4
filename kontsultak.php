@@ -62,26 +62,31 @@
     if (isset($_GET['departamentua']) && isset($_GET['rolak'])) {
         $_SESSION['departamentua'] = $_GET['departamentua'];
         $_SESSION['rol'] = $_GET['rolak'];
-    }
-    echo "session: " . $_SESSION['departamentua'] . " " . $_SESSION['rol'] . "<br>";
-
-    if ($_SESSION['departamentua'] != "" && $_SESSION['rol'] != "") {
-        $departamentua = $_SESSION['departamentua'];
-        $rol = $_SESSION['rol'];
-        langileakErakutsi($departamentua, $rol);
     } else {
         $_SESSION['departamentua'] = "";
         $_SESSION['rol'] = "";
     }
 
+    /*
     function langileakErakutsi($departamentua, $rol)
     {
         $xml = simplexml_load_file("datuak/intra.xml");
-        $langileak = $xml->xpath("//langileak/langilea[departamentua = '$departamentua' and rola = '$rol']/izena");
-        //$langileak = $xml->xpath("//langileak/langilea[departamentua = '$departamentua' and rol = '$rol']");
+        $langileak = $xml->xpath("//langileak/langilea[departamentua = '$departamentua' and rola = '$rol']");
         foreach ($langileak as $langilea) {
-            echo "Langilea: <br>";
             echo '<p>' . $langilea->izena . "</p> <br>";
+        }
+    }*/
+
+    function langileakErakutsi($departamentua, $rol)
+    {
+        $xml = simplexml_load_file("datuak/intra.xml");
+        if ($departamentua != "" && $departamentua != "") {
+            $langileak = $xml->xpath("//langileak/langilea[departamentua = '$departamentua' and rola = '$rol']");
+        } else {
+            $langileak = $xml->xpath("//langileak/langilea");
+        }
+        foreach ($langileak as $langilea) {
+            echo '<p>' . $langilea->izena . "</p>";
         }
     }
     ?>
@@ -126,8 +131,8 @@
             </select>
             <button type="button" onclick=ArkeztuLangileak()>Filtrar</button>
         </form>
-        <div id="resultadoLangileak">
-            <p>Langileak hemen agertuko dira.</p>
+        <div class="lan">
+            <?php langileakErakutsi($_SESSION['departamentua'], $_SESSION['rol']) ?>
         </div>
     </section>
 
