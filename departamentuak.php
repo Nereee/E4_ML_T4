@@ -78,7 +78,7 @@ session_start();
         ?>
 
 
-        <h1>LOLOLOLO hbr si funciona</h1>
+        <h1>Departamentuak</h1>
 
         <div class="grid-cont">
             <?php

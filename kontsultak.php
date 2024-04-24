@@ -66,40 +66,33 @@
             $langileak = $xml->xpath("//langileak/langilea");
         }
         foreach ($langileak as $langilea) {
-            echo '<p>' . $langilea->izena . "</p>";
+            echo '<div class="lan"><img class="largazkia" src="' . $langilea->argazkia . '">
+            <p>' . $langilea->izena . " " . $langilea->abizena1 . " " . $langilea->abizena2 ."</p>
+            <p>" . $langilea->jaiotze_data . "</p>
+            <p>" . $langilea->bizilekua->herrialdea . ", " .$langilea->bizilekua->provintzia . ", " . $langilea->bizilekua->herria . "
+            <p>" . $langilea->telefonoak->mugikorra ."</div>";
         }
     }
     ?>
-
 </head>
 
 
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="image/Schotify.png" alt="logoa">
-            </div>
-        </div>
+<header>
+        <nav>
+        <img src="image/Schotify.png" alt="logoa">
+            <ul>
+                <li><a href="main.html">Hasiera</a></li>
+                <li><a href="erregistroa.php">Erregistroa</a></li>
+            </ul>
+
+        </nav>
+
     </header>
 
 
-    <hr>
 
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Hasiera</a></li>
-            <li><a href="erregistroa.php">Langileen Erregistroa</a></li>
-        </ul>
-
-    </nav>
-
-
-    <hr>
-
-
-    <section>
+    <main>
         <form id="filterForm">
             <select name="departamentua" id="departamentua">
                 <option value="">-</option>
@@ -111,10 +104,10 @@
             </select>
             <button type="button" onclick=ArkeztuLangileak()>Filtrar</button>
         </form>
-        <div class="lan">
+        <div class="grid-cont">
             <?php langileakErakutsi($_SESSION['departamentua'], $_SESSION['rol']) ?>
         </div>
-    </section>
+    </main>
 
 
 

@@ -3,6 +3,7 @@
 
 * {
 box-sizing: border-box;
+
 }
 
 body {
@@ -12,6 +13,7 @@ body {
     background-color: #f8f9fa;
     display: flex;
     flex-direction: column;
+    background-color: rgb(240, 228, 215);
 }
 
 main {
@@ -249,22 +251,57 @@ h1 {
     text-align: center;
 }
 
-/* Estilos para la página principal */
-
+/* Estilos para el filtro */
+#filterForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #filterForm select {
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color:  rgb(151, 151, 151);
+    color: black;
+  }
+  
+  #filterForm button {
+    padding: 10px 20px;
+    background-color: rgb(54, 53, 53);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #filterForm button:hover {
+    background-color:  rgb(54, 53, 53);
+  }
 /* Estilos para departamentos */
 
 .grid-cont {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cambia el tamaño de las columnas según el tamaño del contenedor */
     gap: 10px; /* Espacio entre los elementos */
+    background-color: rgb(240, 228, 215);
+    
 }
 
-.dep {
+.dep, .lan {
     border: 1px solid #ccc;
     padding: 10px;
+    text-align: center;
+    background-color: rgb(88, 88, 88);
+    color: #ffffff;
 }
 
-.lan {
-    border: 1px solid #ccc;
-    padding: 10px;
+.lan img {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    display: block;
 }

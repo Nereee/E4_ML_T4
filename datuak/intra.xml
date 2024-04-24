@@ -93,7 +93,7 @@
             <izena>Aitzol</izena>
             <abizena1>Sagardui</abizena1>
             <abizena2>Larrinaga</abizena2>
-            <jaiotze-data>2005-03-11</jaiotze-data>
+            <jaoiotze_data>2005-03-11</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Bizkaia</provintzia>
@@ -108,7 +108,7 @@
                 <pertsonala>aitzolsagardui@gmail.com</pertsonala>
                 <lanekoa>intraaitzol@gmail.com</lanekoa>
             </e-postak>
-            <argazkia></argazkia>
+            <argazkia>./image/empleado.png</argazkia>
             <soldata>2000</soldata>
             <kontratazio-data>2000-09-02</kontratazio-data>
             <rola>rh</rola>
@@ -119,7 +119,7 @@
             <izena>Mireia</izena>
             <abizena1>López</abizena1>
             <abizena2>García</abizena2>
-            <jaiotze-data>1990-07-15</jaiotze-data>
+            <jaoiotze_data>1990-07-15</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Barcelona</provintzia>
@@ -134,7 +134,7 @@
                 <pertsonala>mireialopez@gmail.com</pertsonala>
                 <lanekoa>mlopez@empresa.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/mireia_lopez.jpg</argazkia>
+            <argazkia>./image/empleada.png</argazkia>
             <soldata>2500</soldata>
             <kontratazio-data>2015-04-20</kontratazio-data>
             <rola>rh</rola>
@@ -146,7 +146,7 @@
             <izena>Jon</izena>
             <abizena1>González</abizena1>
             <abizena2>Ruiz</abizena2>
-            <jaiotze-data>1985-12-03</jaiotze-data>
+            <jaoiotze_data>1985-12-03</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Madrid</provintzia>
@@ -161,7 +161,7 @@
                 <pertsonala>jon.gr@gmail.com</pertsonala>
                 <lanekoa>jgonzalez@company.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/jon_gonzalez.jpg</argazkia>
+            <argazkia>./image/empleado.png</argazkia>
             <soldata>2800</soldata>
             <kontratazio-data>2010-08-10</kontratazio-data>
             <rola>pr</rola>
@@ -173,7 +173,7 @@
             <izena>María</izena>
             <abizena1>Rodríguez</abizena1>
             <abizena2>Fernández</abizena2>
-            <jaiotze-data>1978-05-20</jaiotze-data>
+            <jaoiotze_data>1978-05-20</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Valencia</provintzia>
@@ -188,7 +188,7 @@
                 <pertsonala>mariarod@gmail.com</pertsonala>
                 <lanekoa>mrodriguez@compañia.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/maria_rodriguez.jpg</argazkia>
+            <argazkia>./image/empleada.png</argazkia>
             <soldata>3200</soldata>
             <kontratazio-data>2004-09-15</kontratazio-data>
             <rola>db</rola>
@@ -200,7 +200,7 @@
             <izena>Javier</izena>
             <abizena1>Martínez</abizena1>
             <abizena2>Rodríguez</abizena2>
-            <jaiotze-data>1993-02-28</jaiotze-data>
+            <jaoiotze_data>1993-02-28</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Alicante</provintzia>
@@ -215,7 +215,7 @@
                 <pertsonala>javier.martinez@gmail.com</pertsonala>
                 <lanekoa>jmartinez@empresa.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/javier_martinez.jpg</argazkia>
+            <argazkia>./image/empleado.png</argazkia>
             <soldata>2700</soldata>
             <kontratazio-data>2018-06-22</kontratazio-data>
             <rola>db</rola>
@@ -227,7 +227,7 @@
             <izena>Laura</izena>
             <abizena1>Fernández</abizena1>
             <abizena2>Gutierrez</abizena2>
-            <jaiotze-data>1989-09-10</jaiotze-data>
+            <jaoiotze_data>1989-09-10</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Sevilla</provintzia>
@@ -242,7 +242,7 @@
                 <pertsonala>laurafdez@gmail.com</pertsonala>
                 <lanekoa>lfernandez@company.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/laura_fernandez.jpg</argazkia>
+            <argazkia>./image/empleada.png</argazkia>
             <soldata>3000</soldata>
             <kontratazio-data>2012-11-30</kontratazio-data>
             <rola>ab</rola>
@@ -254,7 +254,7 @@
             <izena>David</izena>
             <abizena1>Gómez</abizena1>
             <abizena2>Ruiz</abizena2>
-            <jaiotze-data>1992-08-25</jaiotze-data>
+            <jaoiotze_data>1992-08-25</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Madrid</provintzia>
@@ -269,7 +269,7 @@
                 <pertsonala>davidgr@gmail.com</pertsonala>
                 <lanekoa>dgruiz@empresa.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/david_gomez.jpg</argazkia>
+            <argazkia>./image/empleado.png</argazkia>
             <soldata>2800</soldata>
             <kontratazio-data>2014-03-15</kontratazio-data>
             <departamentua>3</departamentua>
@@ -282,7 +282,7 @@
             <izena>Sara</izena>
             <abizena1>López</abizena1>
             <abizena2>Martínez</abizena2>
-            <jaiotze-data>1987-04-18</jaiotze-data>
+            <jaoiotze_data>1987-04-18</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Valencia</provintzia>
@@ -297,7 +297,7 @@
                 <pertsonala>saralopez@gmail.com</pertsonala>
                 <lanekoa>slopez@company.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/sara_lopez.jpg</argazkia>
+            <argazkia>./image/empleada.png</argazkia>
             <soldata>2900</soldata>
             <kontratazio-data>2009-10-20</kontratazio-data>
             <rola>db</rola>
@@ -309,7 +309,7 @@
             <izena>Pablo</izena>
             <abizena1>García</abizena1>
             <abizena2>Martínez</abizena2>
-            <jaiotze-data>1984-11-12</jaiotze-data>
+            <jaoiotze_data>1984-11-12</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Barcelona</provintzia>
@@ -324,7 +324,7 @@
                 <pertsonala>pablogar@gmail.com</pertsonala>
                 <lanekoa>pgarcia@empresa.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/pablo_garcia.jpg</argazkia>
+            <argazkia>./image/empleado.png</argazkia>
             <soldata>3100</soldata>
             <kontratazio-data>2006-07-05</kontratazio-data>
             <rola>db</rola>
@@ -336,7 +336,7 @@
             <izena>Lucía</izena>
             <abizena1>Rodríguez</abizena1>
             <abizena2>Sánchez</abizena2>
-            <jaiotze-data>1995-03-29</jaiotze-data>
+            <jaoiotze_data>1995-03-29</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Sevilla</provintzia>
@@ -351,7 +351,7 @@
                 <pertsonala>luciarod@gmail.com</pertsonala>
                 <lanekoa>lucia.sanchez@company.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/lucia_rodriguez.jpg</argazkia>
+            <argazkia>./image/empleada.png</argazkia>
             <soldata>2600</soldata>
             <kontratazio-data>2017-01-10</kontratazio-data>
             <rola>pr</rola>
@@ -363,7 +363,7 @@
             <izena>Carlos</izena>
             <abizena1>Fernández</abizena1>
             <abizena2>López</abizena2>
-            <jaiotze-data>1980-06-05</jaiotze-data>
+            <jaoiotze_data>1980-06-05</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Madrid</provintzia>
@@ -378,7 +378,7 @@
                 <pertsonala>carlos.fernandez@gmail.com</pertsonala>
                 <lanekoa>cfernandez@company.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/carlos_fernandez.jpg</argazkia>
+            <argazkia>./image/empleado.png</argazkia>
             <soldata>3200</soldata>
             <kontratazio-data>2003-12-15</kontratazio-data>
             <departamentua>2</departamentua>
@@ -390,7 +390,7 @@
             <izena>Ana</izena>
             <abizena1>García</abizena1>
             <abizena2>Ruiz</abizena2>
-            <jaiotze-data>1991-10-20</jaiotze-data>
+            <jaoiotze_data>1991-10-20</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Valencia</provintzia>
@@ -405,7 +405,7 @@
                 <pertsonala>ana.garcia@gmail.com</pertsonala>
                 <lanekoa>agarcia@empresa.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/ana_garcia.jpg</argazkia>
+            <argazkia>./image/empleada.png</argazkia>
             <soldata>3000</soldata>
             <kontratazio-data>2013-05-18</kontratazio-data>
             <departamentua>2</departamentua>
@@ -417,7 +417,7 @@
             <izena>Marta</izena>
             <abizena1>Martínez</abizena1>
             <abizena2>López</abizena2>
-            <jaiotze-data>1986-07-08</jaiotze-data>
+            <jaoiotze_data>1986-07-08</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Barcelona</provintzia>
@@ -432,7 +432,7 @@
                 <pertsonala>marta.martinez@gmail.com</pertsonala>
                 <lanekoa>mmartinez@company.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/marta_martinez.jpg</argazkia>
+            <argazkia>./image/empleada.png</argazkia>
             <soldata>2900</soldata>
             <kontratazio-data>2010-08-30</kontratazio-data>
             <departamentua>4</departamentua>
@@ -444,7 +444,7 @@
             <izena>Diego</izena>
             <abizena1>Fernández</abizena1>
             <abizena2>González</abizena2>
-            <jaiotze-data>1983-04-15</jaiotze-data>
+            <jaoiotze_data>1983-04-15</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Madrid</provintzia>
@@ -459,7 +459,7 @@
                 <pertsonala>diegofer@gmail.com</pertsonala>
                 <lanekoa>dfernandez@empresa.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/diego_fernandez.jpg</argazkia>
+            <argazkia>./image/empleado.png</argazkia>
             <soldata>3100</soldata>
             <kontratazio-data>2007-11-25</kontratazio-data>
             <rola>db</rola>
@@ -471,7 +471,7 @@
             <izena>Elena</izena>
             <abizena1>López</abizena1>
             <abizena2>García</abizena2>
-            <jaiotze-data>1994-01-25</jaiotze-data>
+            <jaoiotze_data>1994-01-25</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Sevilla</provintzia>
@@ -486,7 +486,7 @@
                 <pertsonala>elena.lopez@gmail.com</pertsonala>
                 <lanekoa>elopez@company.com</lanekoa>
             </e-postak>
-            <argazkia>https://example.com/elena_lopez.jpg</argazkia>
+            <argazkia>./image/empleada.png</argazkia>
             <soldata>2800</soldata>
             <kontratazio-data>2016-02-20</kontratazio-data>
             <rola>an</rola>
