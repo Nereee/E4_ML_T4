@@ -17,6 +17,7 @@
     <script src="https://kit.fontawesome.com/9b73a90cb7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 
 </head>
 
@@ -32,11 +33,58 @@
         </div>
 </nav>
 
-<div>
+
+
+<?php
+
     
-</div>
 
 
+    // Ruta al archivo XML
+    $ruta_xml = "datuak/intra.xml";
+
+    // Comprobamos si el archivo XML existe
+    if (!file_exists($ruta_xml)) {
+        die("El archivo XML no existe.");
+    }
+
+    // Cargar el contenido del archivo XML
+    $xml = simplexml_load_file($ruta_xml);
+
+    // Comprobar si la carga del XML fue exitosa
+    if ($xml === false) {
+        die("Error al cargar el archivo XML.");
+    }
+
+    // Comprobar si existen los elementos departamentuak y rolak
+    if (!isset($xml->departamentuak) || !isset($xml->rolak)) {
+        die("El archivo XML no contiene la estructura esperada.");
+    }
+
+    // Extraer los departamentos
+    $departamentos = $xml->departamentuak->departamentua;
+
+
+    // Función para imprimir opciones de desplegable
+    function imprimirOpciones($items)
+    {
+        foreach ($items as $item) {
+            echo '<div class=dep>' . '<p>'  . 'Departamentu Izena: '. $item->izena . '<br>' . 'Probintzia: ' . $item->helbidea->provintzia . '<br>'. 'Herria: ' . $item->helbidea->herria .  '<br>' . 'Kalea: ' . $item->helbidea->kalea .  '<br>' . 'Telefonoa: ' . $item->telefonoa .  '<br>' . 'E-posta: '. $item->e_posta . '</p>' .'</div>';
+        }
+    }
+
+    ?>
+
+
+    <h1>LOLOLOLO hbr si funciona</h1>
+    
+    <div class="grid-cont">
+    <?php
+    imprimirOpciones($departamentos);
+    ?>
+    </div>
+
+    
 
 
    
