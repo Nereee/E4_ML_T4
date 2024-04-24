@@ -10,9 +10,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+main {
+    min-height: 100vh;
 }
 
 .container {
@@ -127,28 +130,38 @@ footer ul li {
 
 /* Estilos para el menú de navegación */
 
-.nav {
-    background-color: #343a40;
-    padding: 20px 0;
+nav img{
+    height: 150px;
+    width: 150px;
+    filter: invert(100%);
 }
 
-.nav ul {
+
+
+nav{
+    background-color: #343a40;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
+    background-color: rgb(88, 88, 88);
 }
 
-.nav ul li {
+nav ul li {
     display: inline-block;
     margin-right: 20px;
 }
 
-.nav ul li:last-child {
+nav ul li:last-child {
     margin-right: 0;
 }
 
-.nav ul li a {
+nav ul li a {
     display: block;
     padding: 10px 20px;
     color: #ffffff;

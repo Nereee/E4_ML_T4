@@ -1,10 +1,10 @@
 <?php
-    session_start();
+session_start();
 ?>
 
 <!DOCTYPE html>
 <html lang="eu">
-    
+
 <head>
     <title>Intraneteko Langileen erregistroa</title>
     <meta name="keywords" content="Schotify">
@@ -17,77 +17,79 @@
     <script src="https://kit.fontawesome.com/9b73a90cb7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
 
 </head>
 
 
 <body>
 
-<nav>
-        <div class="nabegaziobarra">
+    <header>
+        <nav>
+        <img src="image/Schotify.png" alt="logoa">
             <ul>
                 <li><a href="main.html">Hasiera</a></li>
                 <li><a href="erregistroa.php">Erregistroa</a></li>
             </ul>
-        </div>
-</nav>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <?php
 
 
 
-<?php
 
-    
+        // Ruta al archivo XML
+        $ruta_xml = "datuak/intra.xml";
 
-
-    // Ruta al archivo XML
-    $ruta_xml = "datuak/intra.xml";
-
-    // Comprobamos si el archivo XML existe
-    if (!file_exists($ruta_xml)) {
-        die("El archivo XML no existe.");
-    }
-
-    // Cargar el contenido del archivo XML
-    $xml = simplexml_load_file($ruta_xml);
-
-    // Comprobar si la carga del XML fue exitosa
-    if ($xml === false) {
-        die("Error al cargar el archivo XML.");
-    }
-
-    // Comprobar si existen los elementos departamentuak y rolak
-    if (!isset($xml->departamentuak) || !isset($xml->rolak)) {
-        die("El archivo XML no contiene la estructura esperada.");
-    }
-
-    // Extraer los departamentos
-    $departamentos = $xml->departamentuak->departamentua;
-
-
-    // Función para imprimir opciones de desplegable
-    function imprimirOpciones($items)
-    {
-        foreach ($items as $item) {
-            echo '<div class=dep>' . '<p>'  . 'Departamentu Izena: '. $item->izena . '<br>' . 'Probintzia: ' . $item->helbidea->provintzia . '<br>'. 'Herria: ' . $item->helbidea->herria .  '<br>' . 'Kalea: ' . $item->helbidea->kalea .  '<br>' . 'Telefonoa: ' . $item->telefonoa .  '<br>' . 'E-posta: '. $item->e_posta . '</p>' .'</div>';
+        // Comprobamos si el archivo XML existe
+        if (!file_exists($ruta_xml)) {
+            die("El archivo XML no existe.");
         }
-    }
 
-    ?>
+        // Cargar el contenido del archivo XML
+        $xml = simplexml_load_file($ruta_xml);
+
+        // Comprobar si la carga del XML fue exitosa
+        if ($xml === false) {
+            die("Error al cargar el archivo XML.");
+        }
+
+        // Comprobar si existen los elementos departamentuak y rolak
+        if (!isset($xml->departamentuak) || !isset($xml->rolak)) {
+            die("El archivo XML no contiene la estructura esperada.");
+        }
+
+        // Extraer los departamentos
+        $departamentos = $xml->departamentuak->departamentua;
 
 
-    <h1>LOLOLOLO hbr si funciona</h1>
-    
-    <div class="grid-cont">
-    <?php
-    imprimirOpciones($departamentos);
-    ?>
-    </div>
+        // Función para imprimir opciones de desplegable
+        function imprimirOpciones($items)
+        {
+            foreach ($items as $item) {
+                echo '<div class=dep>' . '<p>' . 'Departamentu Izena: ' . $item->izena . '<br>' . 'Probintzia: ' . $item->helbidea->provintzia . '<br>' . 'Herria: ' . $item->helbidea->herria . '<br>' . 'Kalea: ' . $item->helbidea->kalea . '<br>' . 'Telefonoa: ' . $item->telefonoa . '<br>' . 'E-posta: ' . $item->e_posta . '</p>' . '</div>';
+            }
+        }
 
-    
+        ?>
 
 
-   
+        <h1>LOLOLOLO hbr si funciona</h1>
+
+        <div class="grid-cont">
+            <?php
+            imprimirOpciones($departamentos);
+            ?>
+        </div>
+
+
+
+    </main>
+
     <footer>
         <div class="container3">
             <div class="info-footer">
@@ -98,18 +100,18 @@
                     <li>Autobusa: 70,46.</li>
                     <li>Metroa: San Ignazio, Asturias irteera</li>
                     <li> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                        <img alt="Licencia Creative Commons" style="border-width:0"
-                            src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png">
-                    </a></li>
+                            <img alt="Licencia Creative Commons" style="border-width:0"
+                                src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png">
+                        </a></li>
                 </ul>
             </div>
             <div class="kontaktua">
                 <h4>Kontaktua</h4>
-                    <i class="fa-solid fa-phone" style="color: #ffffff;"></i> 944 02 80 00
-                    <i class="fa-solid fa-envelope"></i> elorrietazinema@gmail.com
-                    <i class="fa-brands fa-instagram fa-sm" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-facebook"></i>
+                <i class="fa-solid fa-phone" style="color: #ffffff;"></i> 944 02 80 00
+                <i class="fa-solid fa-envelope"></i> elorrietazinema@gmail.com
+                <i class="fa-brands fa-instagram fa-sm" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
             </div>
 
 
@@ -123,4 +125,5 @@
         </div>
     </footer>
 </body>
+
 </html>
