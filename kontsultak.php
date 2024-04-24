@@ -17,6 +17,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <?php
+    session_start();
+
+    //limpiar sesion
+    if (isset($_GET['role']) && isset($_GET['departamentua'])) {
+        session_unset();
+    }
     // Ruta al archivo XML
     $ruta_xml = "datuak/intra.xml";
 
@@ -52,6 +58,32 @@
         }
     }
 
+
+    if (isset($_GET['departamentua']) && isset($_GET['rolak'])) {
+        $_SESSION['departamentua'] = $_GET['departamentua'];
+        $_SESSION['rol'] = $_GET['rolak'];
+    }
+    echo "session: " . $_SESSION['departamentua'] . " " . $_SESSION['rol'] . "<br>";
+
+    if ($_SESSION['departamentua'] != "" && $_SESSION['rol'] != "") {
+        $departamentua = $_SESSION['departamentua'];
+        $rol = $_SESSION['rol'];
+        langileakErakutsi($departamentua, $rol);
+    } else {
+        $_SESSION['departamentua'] = "";
+        $_SESSION['rol'] = "";
+    }
+
+    function langileakErakutsi($departamentua, $rol)
+    {
+        $xml = simplexml_load_file("datuak/intra.xml");
+        $langileak = $xml->xpath("//langileak/langilea[departamentua = '$departamentua' and rola = '$rol']/izena");
+        //$langileak = $xml->xpath("//langileak/langilea[departamentua = '$departamentua' and rol = '$rol']");
+        foreach ($langileak as $langilea) {
+            echo "Langilea: <br>";
+            echo '<p>' . $langilea->izena . "</p> <br>";
+        }
+    }
     ?>
 
 </head>
@@ -83,7 +115,6 @@
 
 
     <section>
-
         <form id="filterForm">
             <select name="departamentua" id="departamentua">
                 <option value="">-</option>
@@ -93,10 +124,13 @@
                 <option value="">-</option>
                 <?php imprimirOpciones($roles); ?>
             </select>
+            <button type="button" onclick=ArkeztuLangileak()>Filtrar</button>
         </form>
-        <div id="resultContainer">
+        <div id="resultadoLangileak">
+            <p>Langileak hemen agertuko dira.</p>
         </div>
     </section>
+
 
 
     <footer>
@@ -144,42 +178,11 @@
         </div>
     </footer>
     <script>
-        function handleFilterChange() {
-            var departamento = document.getElementById('departamentua').value;
-            var rol = document.getElementById('rolak').value;
-
-            var xhr = new XMLHttpRequest();
-            xhr.onreadystatechange = function () {
-                if (this.readyState == 4 && this.status == 200) {
-                    var xmlDoc = this.responseXML;
-                    var employees = xmlDoc.getElementsByTagName('langilea');
-                    var filteredEmployees = [];
-
-                    for (var i = 0; i < employees.length; i++) {
-                        var employee = employees[i];
-                        var employeeDepartamento = employee.querySelector('departamentua').textContent;
-                        var employeeRol = employee.querySelector('rola').textContent;
-
-                        if ((departamento === '0' || employeeDepartamento === departamento) && (rol === '0' || employeeRol === rol)) {
-                            filteredEmployees.push({
-                                izena: employee.querySelector('izena').textContent,
-                                abizena1: employee.querySelector('abizena1').textContent,
-                                abizena2: employee.querySelector('abizena2').textContent
-                            });
-                        }
-                    }
-
-                    if (filteredEmployees.length > 0) {
-                        displayEmployees(filteredEmployees);
-                    } else {
-                        document.getElementById('langileak').innerHTML = '<p>Ez dira langilerik aurkitu.</p>';
-                    }
-                }
-            };
-            xhr.open("GET", "datuak/intra.xml", true);
-            xhr.send();
+        function ArkeztuLangileak() {
+            var departamentua = document.getElementById("departamentua").value;
+            var rol = document.getElementById("rolak").value;
+            window.location.href = "<?php echo $_SERVER['PHP_SELF']; ?>?departamentua=" + departamentua + "&rolak=" + rol;
         }
-
     </script>
 </body>
 
