@@ -1,526 +1,534 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <erakundea>
-<departamentuak>
-<departamentua id="1">
-    <izena>Giza_baliabideak</izena>
-    <helbidea>
-        <herrialdea>España</herrialdea>
-        <provintzia>Bizkaia</provintzia>
-        <herria posta_k="48011">Bilbo</herria>
-        <kalea>Juan de la Cosa</kalea>
-        <zenbakia>15</zenbakia>
-    </helbidea>
-    <telefonoa>456456456</telefonoa>
-    <e_posta>intragizabal@gmail.com</e_posta>
-    <menpeko-departamentua></menpeko-departamentua>
-    <departamentu-burua>4</departamentu-burua>
-</departamentua>
-<departamentua id="2">
-    <izena>Marketin</izena>
-    <helbidea>
-        <herrialdea>España</herrialdea>
-        <provintzia>Bizkaia</provintzia>
-        <herria posta_k="48011">Bilbo</herria>
-        <kalea>Calle Santutxu</kalea>
-        <zenbakia>20</zenbakia>
-    </helbidea>
-    <telefonoa>123123123</telefonoa>
-    <e_posta>intramark@gmail.com</e_posta>
-    <menpeko-departamentua></menpeko-departamentua>
-    <departamentu-burua>5</departamentu-burua>
-</departamentua>
-<departamentua id="3">
-    <izena>Zuzendaritza Orokorra</izena>
-    <helbidea>
-        <herrialdea>España</herrialdea>
-        <provintzia>Bizkaia</provintzia>
-        <herria posta_k="48009">Bilbo</herria>
-        <kalea>Alameda de Mazarredo</kalea>
-        <zenbakia>25</zenbakia>
-    </helbidea>
-    <telefonoa>890890890</telefonoa>
-    <e_posta>intrzuzendaritza@gmail.com</e_posta>
-    <menpeko-departamentua></menpeko-departamentua>
-    <departamentu-burua>3</departamentu-burua>
-</departamentua>
-<departamentua id="4">
-    <izena>Lege-Saila</izena>
-    <helbidea>
-        <herrialdea>España</herrialdea>
-        <provintzia>Bizkaia</provintzia>
-        <herria posta_k="48480">Arrigorriaga</herria>
-        <kalea>Calle Dr.Fleming</kalea>
-        <zenbakia>4</zenbakia>
-    </helbidea>
-    <telefonoa>678678678</telefonoa>
-    <e_posta>intrlegesail@gmail.com</e_posta>
-    <menpeko-departamentua></menpeko-departamentua>
-    <departamentu-burua>8</departamentu-burua>
-</departamentua>
-<departamentua id="5">
-    <izena>Salmentak</izena>
-    <helbidea>
-        <herrialdea>España</herrialdea>
-        <provintzia>Bizkaia</provintzia>
-        <herria posta_k="48970">Basauri</herria>
-        <kalea>Kareaga Goikoa</kalea>
-        <zenbakia>16</zenbakia>
-    </helbidea>
-    <telefonoa>934934934</telefonoa>
-    <e_posta>intrsalmentak@gmail.com</e_posta>
-    <menpeko-departamentua></menpeko-departamentua>
-    <departamentu-burua>14</departamentu-burua>
-</departamentua>
-<departamentua id="6">
-    <izena>Ekoizpena</izena>
-    <helbidea>
-        <herrialdea>España</herrialdea>
-        <provintzia>Bizkaia</provintzia>
-        <herria posta_k="48480">Arrigorriaga</herria>
-        <kalea>Santa Isabel</kalea>
-        <zenbakia>7</zenbakia>
-    </helbidea>
-    <telefonoa>934934934</telefonoa>
-    <e_posta>intrsalmentak@gmail.com</e_posta>
-    <menpeko-departamentua></menpeko-departamentua>
-    <departamentu-burua>9</departamentu-burua>
-</departamentua>
+    <departamentuak>
+        <departamentua id="1">
+            <izena>Giza_baliabideak</izena>
+            <helbidea>
+                <herrialdea>España</herrialdea>
+                <provintzia>Bizkaia</provintzia>
+                <herria posta_k="48011">Bilbo</herria>
+                <kalea>Juan de la Cosa</kalea>
+                <zenbakia>15</zenbakia>
+            </helbidea>
+            <telefonoa>456456456</telefonoa>
+            <e_posta>intragizabal@gmail.com</e_posta>
+            <menpeko-departamentua></menpeko-departamentua>
+            <departamentu-burua>4</departamentu-burua>
+        </departamentua>
+        <departamentua id="2">
+            <izena>Marketin</izena>
+            <helbidea>
+                <herrialdea>España</herrialdea>
+                <provintzia>Bizkaia</provintzia>
+                <herria posta_k="48011">Bilbo</herria>
+                <kalea>Calle Santutxu</kalea>
+                <zenbakia>20</zenbakia>
+            </helbidea>
+            <telefonoa>123123123</telefonoa>
+            <e_posta>intramark@gmail.com</e_posta>
+            <menpeko-departamentua></menpeko-departamentua>
+            <departamentu-burua>5</departamentu-burua>
+        </departamentua>
+        <departamentua id="3">
+            <izena>Zuzendaritza Orokorra</izena>
+            <helbidea>
+                <herrialdea>España</herrialdea>
+                <provintzia>Bizkaia</provintzia>
+                <herria posta_k="48009">Bilbo</herria>
+                <kalea>Alameda de Mazarredo</kalea>
+                <zenbakia>25</zenbakia>
+            </helbidea>
+            <telefonoa>890890890</telefonoa>
+            <e_posta>intrzuzendaritza@gmail.com</e_posta>
+            <menpeko-departamentua></menpeko-departamentua>
+            <departamentu-burua>3</departamentu-burua>
+        </departamentua>
+        <departamentua id="4">
+            <izena>Lege-Saila</izena>
+            <helbidea>
+                <herrialdea>España</herrialdea>
+                <provintzia>Bizkaia</provintzia>
+                <herria posta_k="48480">Arrigorriaga</herria>
+                <kalea>Calle Dr.Fleming</kalea>
+                <zenbakia>4</zenbakia>
+            </helbidea>
+            <telefonoa>678678678</telefonoa>
+            <e_posta>intrlegesail@gmail.com</e_posta>
+            <menpeko-departamentua></menpeko-departamentua>
+            <departamentu-burua>8</departamentu-burua>
+        </departamentua>
+        <departamentua id="5">
+            <izena>Salmentak</izena>
+            <helbidea>
+                <herrialdea>España</herrialdea>
+                <provintzia>Bizkaia</provintzia>
+                <herria posta_k="48970">Basauri</herria>
+                <kalea>Kareaga Goikoa</kalea>
+                <zenbakia>16</zenbakia>
+            </helbidea>
+            <telefonoa>934934934</telefonoa>
+            <e_posta>intrsalmentak@gmail.com</e_posta>
+            <menpeko-departamentua></menpeko-departamentua>
+            <departamentu-burua>14</departamentu-burua>
+        </departamentua>
+        <departamentua id="6">
+            <izena>Ekoizpena</izena>
+            <helbidea>
+                <herrialdea>España</herrialdea>
+                <provintzia>Bizkaia</provintzia>
+                <herria posta_k="48480">Arrigorriaga</herria>
+                <kalea>Santa Isabel</kalea>
+                <zenbakia>7</zenbakia>
+            </helbidea>
+            <telefonoa>934934934</telefonoa>
+            <e_posta>intrsalmentak@gmail.com</e_posta>
+            <menpeko-departamentua></menpeko-departamentua>
+            <departamentu-burua>9</departamentu-burua>
+        </departamentua>
 
-</departamentuak>
-<langileak>
-    <!-- Empleado 1 -->
-    <langilea id="1">
-        <izena>Aitzol</izena>
-        <abizena1>Sagardui</abizena1>
-        <abizena2>Larrinaga</abizena2>
-        <jaiotze-data>2005-03-11</jaiotze-data>
-        <bizilekua>
+    </departamentuak>
+    <langileak>
+        <!-- Empleado 1 -->
+        <langilea id="1">
+            <izena>Aitzol</izena>
+            <abizena1>Sagardui</abizena1>
+            <abizena2>Larrinaga</abizena2>
+            <jaiotze-data>2005-03-11</jaiotze-data>
+            <bizilekua>
                 <herrialdea>España</herrialdea>
                 <provintzia>Bizkaia</provintzia>
                 <herria posta_k="48480">Arrigorriaga</herria>
                 <kalea>Ramon y cajal</kalea>
                 <zenbakia>9</zenbakia>
-        </bizilekua>
-        <telefonoak>
-            <mugikorra>987908798</mugikorra>
-        </telefonoak>
-        <e-postak>
-            <pertsonala>aitzolsagardui@gmail.com</pertsonala>
-            <lanekoa>intraaitzol@gmail.com</lanekoa>
-        </e-postak>
-        <argazkia></argazkia>
-        <soldata>2000</soldata>
-        <kontratazio-data>2000-09-02</kontratazio-data>
-        <rola>rh</rola>
-        <departamentua>1</departamentua>
-    </langilea>
-    <!-- Empleado 2 -->
-    <langilea id="2">
-        <izena>Mireia</izena>
-        <abizena1>López</abizena1>
-        <abizena2>García</abizena2>
-        <jaiotze-data>1990-07-15</jaiotze-data>
-        <bizilekua>
-            <herrialdea>España</herrialdea>
-            <provintzia>Barcelona</provintzia>
-            <herria posta_k="08002">Barcelona</herria>
-            <kalea>Avenida Diagonal</kalea>
-            <zenbakia>123</zenbakia>
-        </bizilekua>
-        <telefonoak>
-            <mugikorra>654321987</mugikorra>
-        </telefonoak>
-        <e-postak>
-            <pertsonala>mireialopez@gmail.com</pertsonala>
-            <lanekoa>mlopez@empresa.com</lanekoa>
-        </e-postak>
-        <argazkia>https://example.com/mireia_lopez.jpg</argazkia>
-        <soldata>2500</soldata>
-        <kontratazio-data>2015-04-20</kontratazio-data>
-        <rola>rh</rola>
-        <departamentua>1</departamentua>
-    </langilea>
-    
-    <!-- Empleado 3 -->
-    <langilea id="3">
-        <izena>Jon</izena>
-        <abizena1>González</abizena1>
-        <abizena2>Ruiz</abizena2>
-        <jaiotze-data>1985-12-03</jaiotze-data>
-        <bizilekua>
-            <herrialdea>España</herrialdea>
-            <provintzia>Madrid</provintzia>
-            <herria posta_k="28001">Madrid</herria>
-            <kalea>Calle Gran Vía</kalea>
-            <zenbakia>45</zenbakia>
-        </bizilekua>
-        <telefonoak>
-            <mugikorra>678945612</mugikorra>
-        </telefonoak>
-        <e-postak>
-            <pertsonala>jon.gr@gmail.com</pertsonala>
-            <lanekoa>jgonzalez@company.com</lanekoa>
-        </e-postak>
-        <argazkia>https://example.com/jon_gonzalez.jpg</argazkia>
-        <soldata>2800</soldata>
-        <kontratazio-data>2010-08-10</kontratazio-data>
-        <rola>pr</rola>
-        <departamentua>6</departamentua>
-    </langilea>
-    
-    <!-- Empleado 4 -->
-    <langilea id="4">
-        <izena>María</izena>
-        <abizena1>Rodríguez</abizena1>
-        <abizena2>Fernández</abizena2>
-        <jaiotze-data>1978-05-20</jaiotze-data>
-        <bizilekua>
-            <herrialdea>España</herrialdea>
-            <provintzia>Valencia</provintzia>
-            <herria posta_k="46001">Valencia</herria>
-            <kalea>Avenida del Puerto</kalea>
-            <zenbakia>78</zenbakia>
-        </bizilekua>
-        <telefonoak>
-            <mugikorra>623548976</mugikorra>
-        </telefonoak>
-        <e-postak>
-            <pertsonala>mariarod@gmail.com</pertsonala>
-            <lanekoa>mrodriguez@compañia.com</lanekoa>
-        </e-postak>
-        <argazkia>https://example.com/maria_rodriguez.jpg</argazkia>
-        <soldata>3200</soldata>
-        <kontratazio-data>2004-09-15</kontratazio-data>
-        <rola>db</rola>
-        <departamentua>6</departamentua>
-    </langilea>
-    
-    <!-- Empleado 5 -->
-    <langilea id="5">
-        <izena>Javier</izena>
-        <abizena1>Martínez</abizena1>
-        <abizena2>Rodríguez</abizena2>
-        <jaiotze-data>1993-02-28</jaiotze-data>
-        <bizilekua>
-            <herrialdea>España</herrialdea>
-            <provintzia>Alicante</provintzia>
-            <herria posta_k="03001">Alicante</herria>
-            <kalea>Paseo de la Explanada</kalea>
-            <zenbakia>15</zenbakia>
-        </bizilekua>
-        <telefonoak>
-            <mugikorra>632587914</mugikorra>
-        </telefonoak>
-        <e-postak>
-            <pertsonala>javier.martinez@gmail.com</pertsonala>
-            <lanekoa>jmartinez@empresa.com</lanekoa>
-        </e-postak>
-        <argazkia>https://example.com/javier_martinez.jpg</argazkia>
-        <soldata>2700</soldata>
-        <kontratazio-data>2018-06-22</kontratazio-data>
-        <rola>db</rola>
-        <departamentua>5</departamentua>
-    </langilea>
-    
-    <!-- Empleado 6 -->
-    <langilea id="6">
-        <izena>Laura</izena>
-        <abizena1>Fernández</abizena1>
-        <abizena2>Gutierrez</abizena2>
-        <jaiotze-data>1989-09-10</jaiotze-data>
-        <bizilekua>
-            <herrialdea>España</herrialdea>
-            <provintzia>Sevilla</provintzia>
-            <herria posta_k="41001">Sevilla</herria>
-            <kalea>Calle Sierpes</kalea>
-            <zenbakia>20</zenbakia>
-        </bizilekua>
-        <telefonoak>
-            <mugikorra>645879632</mugikorra>
-        </telefonoak>
-        <e-postak>
-            <pertsonala>laurafdez@gmail.com</pertsonala>
-            <lanekoa>lfernandez@company.com</lanekoa>
-        </e-postak>
-        <argazkia>https://example.com/laura_fernandez.jpg</argazkia>
-        <soldata>3000</soldata>
-        <kontratazio-data>2012-11-30</kontratazio-data>
-        <rola>ab</rola>
-        <departamentua>4</departamentua>
-    </langilea>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>987908798</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>aitzolsagardui@gmail.com</pertsonala>
+                <lanekoa>intraaitzol@gmail.com</lanekoa>
+            </e-postak>
+            <argazkia></argazkia>
+            <soldata>2000</soldata>
+            <kontratazio-data>2000-09-02</kontratazio-data>
+            <rola>rh</rola>
+            <departamentua>1</departamentua>
+        </langilea>
+        <!-- Empleado 2 -->
+        <langilea id="2">
+            <izena>Mireia</izena>
+            <abizena1>López</abizena1>
+            <abizena2>García</abizena2>
+            <jaiotze-data>1990-07-15</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Barcelona</provintzia>
+                <herria posta_k="08002">Barcelona</herria>
+                <kalea>Avenida Diagonal</kalea>
+                <zenbakia>123</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>654321987</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>mireialopez@gmail.com</pertsonala>
+                <lanekoa>mlopez@empresa.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/mireia_lopez.jpg</argazkia>
+            <soldata>2500</soldata>
+            <kontratazio-data>2015-04-20</kontratazio-data>
+            <rola>rh</rola>
+            <departamentua>1</departamentua>
+        </langilea>
 
-    <!-- Empleado 7 -->
-<langilea id="7">
-    <izena>David</izena>
-    <abizena1>Gómez</abizena1>
-    <abizena2>Ruiz</abizena2>
-    <jaiotze-data>1992-08-25</jaiotze-data>
-    <bizilekua>
-        <herrialdea>España</herrialdea>
-        <provintzia>Madrid</provintzia>
-        <herria posta_k="28010">Madrid</herria>
-        <kalea>Calle Princesa</kalea>
-        <zenbakia>67</zenbakia>
-    </bizilekua>
-    <telefonoak>
-        <mugikorra>612345678</mugikorra>
-    </telefonoak>
-    <e-postak>
-        <pertsonala>davidgr@gmail.com</pertsonala>
-        <lanekoa>dgruiz@empresa.com</lanekoa>
-    </e-postak>
-    <argazkia>https://example.com/david_gomez.jpg</argazkia>
-    <soldata>2800</soldata>
-    <kontratazio-data>2014-03-15</kontratazio-data>
-    <departamentua>3</departamentua>
-    <rola>co</rola>
-    <rola>db</rola>
-</langilea>
+        <!-- Empleado 3 -->
+        <langilea id="3">
+            <izena>Jon</izena>
+            <abizena1>González</abizena1>
+            <abizena2>Ruiz</abizena2>
+            <jaiotze-data>1985-12-03</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Madrid</provintzia>
+                <herria posta_k="28001">Madrid</herria>
+                <kalea>Calle Gran Vía</kalea>
+                <zenbakia>45</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>678945612</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>jon.gr@gmail.com</pertsonala>
+                <lanekoa>jgonzalez@company.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/jon_gonzalez.jpg</argazkia>
+            <soldata>2800</soldata>
+            <kontratazio-data>2010-08-10</kontratazio-data>
+            <rola>pr</rola>
+            <departamentua>6</departamentua>
+        </langilea>
 
-<!-- Empleado 8 -->
-<langilea id="8">
-    <izena>Sara</izena>
-    <abizena1>López</abizena1>
-    <abizena2>Martínez</abizena2>
-    <jaiotze-data>1987-04-18</jaiotze-data>
-    <bizilekua>
-        <herrialdea>España</herrialdea>
-        <provintzia>Valencia</provintzia>
-        <herria posta_k="46021">Valencia</herria>
-        <kalea>Calle de la Paz</kalea>
-        <zenbakia>34</zenbakia>
-    </bizilekua>
-    <telefonoak>
-        <mugikorra>654987321</mugikorra>
-    </telefonoak>
-    <e-postak>
-        <pertsonala>saralopez@gmail.com</pertsonala>
-        <lanekoa>slopez@company.com</lanekoa>
-    </e-postak>
-    <argazkia>https://example.com/sara_lopez.jpg</argazkia>
-    <soldata>2900</soldata>
-    <kontratazio-data>2009-10-20</kontratazio-data>
-    <rola>db</rola>
-    <departamentua>4</departamentua>
-</langilea>
+        <!-- Empleado 4 -->
+        <langilea id="4">
+            <izena>María</izena>
+            <abizena1>Rodríguez</abizena1>
+            <abizena2>Fernández</abizena2>
+            <jaiotze-data>1978-05-20</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Valencia</provintzia>
+                <herria posta_k="46001">Valencia</herria>
+                <kalea>Avenida del Puerto</kalea>
+                <zenbakia>78</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>623548976</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>mariarod@gmail.com</pertsonala>
+                <lanekoa>mrodriguez@compañia.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/maria_rodriguez.jpg</argazkia>
+            <soldata>3200</soldata>
+            <kontratazio-data>2004-09-15</kontratazio-data>
+            <rola>db</rola>
+            <departamentua>6</departamentua>
+        </langilea>
 
-<!-- Empleado 9 -->
-<langilea id="9">
-    <izena>Pablo</izena>
-    <abizena1>García</abizena1>
-    <abizena2>Martínez</abizena2>
-    <jaiotze-data>1984-11-12</jaiotze-data>
-    <bizilekua>
-        <herrialdea>España</herrialdea>
-        <provintzia>Barcelona</provintzia>
-        <herria posta_k="08001">Barcelona</herria>
-        <kalea>Ronda Sant Pere</kalea>
-        <zenbakia>56</zenbakia>
-    </bizilekua>
-    <telefonoak>
-        <mugikorra>678123456</mugikorra>
-    </telefonoak>
-    <e-postak>
-        <pertsonala>pablogar@gmail.com</pertsonala>
-        <lanekoa>pgarcia@empresa.com</lanekoa>
-    </e-postak>
-    <argazkia>https://example.com/pablo_garcia.jpg</argazkia>
-    <soldata>3100</soldata>
-    <kontratazio-data>2006-07-05</kontratazio-data>
-    <rola>db</rola>
-    <departamentua>5</departamentua>
-</langilea>
+        <!-- Empleado 5 -->
+        <langilea id="5">
+            <izena>Javier</izena>
+            <abizena1>Martínez</abizena1>
+            <abizena2>Rodríguez</abizena2>
+            <jaiotze-data>1993-02-28</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Alicante</provintzia>
+                <herria posta_k="03001">Alicante</herria>
+                <kalea>Paseo de la Explanada</kalea>
+                <zenbakia>15</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>632587914</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>javier.martinez@gmail.com</pertsonala>
+                <lanekoa>jmartinez@empresa.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/javier_martinez.jpg</argazkia>
+            <soldata>2700</soldata>
+            <kontratazio-data>2018-06-22</kontratazio-data>
+            <rola>db</rola>
+            <departamentua>5</departamentua>
+        </langilea>
 
-<!-- Empleado 10 -->
-<langilea id="10">
-    <izena>Lucía</izena>
-    <abizena1>Rodríguez</abizena1>
-    <abizena2>Sánchez</abizena2>
-    <jaiotze-data>1995-03-29</jaiotze-data>
-    <bizilekua>
-        <herrialdea>España</herrialdea>
-        <provintzia>Sevilla</provintzia>
-        <herria posta_k="41010">Sevilla</herria>
-        <kalea>Avenida de la Constitución</kalea>
-        <zenbakia>78</zenbakia>
-    </bizilekua>
-    <telefonoak>
-        <mugikorra>623456789</mugikorra>
-    </telefonoak>
-    <e-postak>
-        <pertsonala>luciarod@gmail.com</pertsonala>
-        <lanekoa>lucia.sanchez@company.com</lanekoa>
-    </e-postak>
-    <argazkia>https://example.com/lucia_rodriguez.jpg</argazkia>
-    <soldata>2600</soldata>
-    <kontratazio-data>2017-01-10</kontratazio-data>
-    <rola>pr</rola>
-    <departamentua>6</departamentua>
-</langilea>
+        <!-- Empleado 6 -->
+        <langilea id="6">
+            <izena>Laura</izena>
+            <abizena1>Fernández</abizena1>
+            <abizena2>Gutierrez</abizena2>
+            <jaiotze-data>1989-09-10</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Sevilla</provintzia>
+                <herria posta_k="41001">Sevilla</herria>
+                <kalea>Calle Sierpes</kalea>
+                <zenbakia>20</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>645879632</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>laurafdez@gmail.com</pertsonala>
+                <lanekoa>lfernandez@company.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/laura_fernandez.jpg</argazkia>
+            <soldata>3000</soldata>
+            <kontratazio-data>2012-11-30</kontratazio-data>
+            <rola>ab</rola>
+            <departamentua>4</departamentua>
+        </langilea>
 
-<!-- Empleado 11 -->
-<langilea id="11">
-    <izena>Carlos</izena>
-    <abizena1>Fernández</abizena1>
-    <abizena2>López</abizena2>
-    <jaiotze-data>1980-06-05</jaiotze-data>
-    <bizilekua>
-        <herrialdea>España</herrialdea>
-        <provintzia>Madrid</provintzia>
-        <herria posta_k="28025">Madrid</herria>
-        <kalea>Calle Mayor</kalea>
-        <zenbakia>90</zenbakia>
-    </bizilekua>
-    <telefonoak>
-        <mugikorra>645678901</mugikorra>
-    </telefonoak>
-    <e-postak>
-        <pertsonala>carlos.fernandez@gmail.com</pertsonala>
-        <lanekoa>cfernandez@company.com</lanekoa>
-    </e-postak>
-    <argazkia>https://example.com/carlos_fernandez.jpg</argazkia>
-    <soldata>3200</soldata>
-    <kontratazio-data>2003-12-15</kontratazio-data>
-    <departamentua>2</departamentua>
-    <rola>ek</rola>
-</langilea>
+        <!-- Empleado 7 -->
+        <langilea id="7">
+            <izena>David</izena>
+            <abizena1>Gómez</abizena1>
+            <abizena2>Ruiz</abizena2>
+            <jaiotze-data>1992-08-25</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Madrid</provintzia>
+                <herria posta_k="28010">Madrid</herria>
+                <kalea>Calle Princesa</kalea>
+                <zenbakia>67</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>612345678</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>davidgr@gmail.com</pertsonala>
+                <lanekoa>dgruiz@empresa.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/david_gomez.jpg</argazkia>
+            <soldata>2800</soldata>
+            <kontratazio-data>2014-03-15</kontratazio-data>
+            <departamentua>3</departamentua>
+            <rola>co</rola>
+            <rola>db</rola>
+        </langilea>
 
-<!-- Empleado 12 -->
-<langilea id="12">
-    <izena>Ana</izena>
-    <abizena1>García</abizena1>
-    <abizena2>Ruiz</abizena2>
-    <jaiotze-data>1991-10-20</jaiotze-data>
-    <bizilekua>
-        <herrialdea>España</herrialdea>
-        <provintzia>Valencia</provintzia>
-        <herria posta_k="46002">Valencia</herria>
-        <kalea>Calle Colón</kalea>
-        <zenbakia>35</zenbakia>
-    </bizilekua>
-    <telefonoak>
-        <mugikorra>632154789</mugikorra>
-    </telefonoak>
-    <e-postak>
-        <pertsonala>ana.garcia@gmail.com</pertsonala>
-        <lanekoa>agarcia@empresa.com</lanekoa>
-    </e-postak>
-    <argazkia>https://example.com/ana_garcia.jpg</argazkia>
-    <soldata>3000</soldata>
-    <kontratazio-data>2013-05-18</kontratazio-data>
-    <departamentua>2</departamentua>
-    <rola>ek</rola>
-</langilea>
+        <!-- Empleado 8 -->
+        <langilea id="8">
+            <izena>Sara</izena>
+            <abizena1>López</abizena1>
+            <abizena2>Martínez</abizena2>
+            <jaiotze-data>1987-04-18</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Valencia</provintzia>
+                <herria posta_k="46021">Valencia</herria>
+                <kalea>Calle de la Paz</kalea>
+                <zenbakia>34</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>654987321</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>saralopez@gmail.com</pertsonala>
+                <lanekoa>slopez@company.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/sara_lopez.jpg</argazkia>
+            <soldata>2900</soldata>
+            <kontratazio-data>2009-10-20</kontratazio-data>
+            <rola>db</rola>
+            <departamentua>4</departamentua>
+        </langilea>
 
-<!-- Empleado 13 -->
-<langilea id="13">
-    <izena>Marta</izena>
-    <abizena1>Martínez</abizena1>
-    <abizena2>López</abizena2>
-    <jaiotze-data>1986-07-08</jaiotze-data>
-    <bizilekua>
-        <herrialdea>España</herrialdea>
-        <provintzia>Barcelona</provintzia>
-        <herria posta_k="08015">Barcelona</herria>
-        <kalea>Paseo de Gracia</kalea>
-        <zenbakia>78</zenbakia>
-    </bizilekua>
-    <telefonoak>
-        <mugikorra>654321987</mugikorra>
-    </telefonoak>
-    <e-postak>
-        <pertsonala>marta.martinez@gmail.com</pertsonala>
-        <lanekoa>mmartinez@company.com</lanekoa>
-    </e-postak>
-    <argazkia>https://example.com/marta_martinez.jpg</argazkia>
-    <soldata>2900</soldata>
-    <kontratazio-data>2010-08-30</kontratazio-data>
-    <departamentua>4</departamentua>
-    <rola>ab</rola>
-</langilea>
+        <!-- Empleado 9 -->
+        <langilea id="9">
+            <izena>Pablo</izena>
+            <abizena1>García</abizena1>
+            <abizena2>Martínez</abizena2>
+            <jaiotze-data>1984-11-12</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Barcelona</provintzia>
+                <herria posta_k="08001">Barcelona</herria>
+                <kalea>Ronda Sant Pere</kalea>
+                <zenbakia>56</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>678123456</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>pablogar@gmail.com</pertsonala>
+                <lanekoa>pgarcia@empresa.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/pablo_garcia.jpg</argazkia>
+            <soldata>3100</soldata>
+            <kontratazio-data>2006-07-05</kontratazio-data>
+            <rola>db</rola>
+            <departamentua>5</departamentua>
+        </langilea>
 
-<!-- Empleado 14 -->
-<langilea id="14">
-    <izena>Diego</izena>
-    <abizena1>Fernández</abizena1>
-    <abizena2>González</abizena2>
-    <jaiotze-data>1983-04-15</jaiotze-data>
-    <bizilekua>
-        <herrialdea>España</herrialdea>
-        <provintzia>Madrid</provintzia>
-        <herria posta_k="28020">Madrid</herria>
-        <kalea>Calle Alcalá</kalea>
-        <zenbakia>120</zenbakia>
-    </bizilekua>
-    <telefonoak>
-        <mugikorra>678987654</mugikorra>
-    </telefonoak>
-    <e-postak>
-        <pertsonala>diegofer@gmail.com</pertsonala>
-        <lanekoa>dfernandez@empresa.com</lanekoa>
-    </e-postak>
-    <argazkia>https://example.com/diego_fernandez.jpg</argazkia>
-    <soldata>3100</soldata>
-    <kontratazio-data>2007-11-25</kontratazio-data>
-    <rola>db</rola>
-    <departamentua>5</departamentua>
-</langilea>
+        <!-- Empleado 10 -->
+        <langilea id="10">
+            <izena>Lucía</izena>
+            <abizena1>Rodríguez</abizena1>
+            <abizena2>Sánchez</abizena2>
+            <jaiotze-data>1995-03-29</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Sevilla</provintzia>
+                <herria posta_k="41010">Sevilla</herria>
+                <kalea>Avenida de la Constitución</kalea>
+                <zenbakia>78</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>623456789</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>luciarod@gmail.com</pertsonala>
+                <lanekoa>lucia.sanchez@company.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/lucia_rodriguez.jpg</argazkia>
+            <soldata>2600</soldata>
+            <kontratazio-data>2017-01-10</kontratazio-data>
+            <rola>pr</rola>
+            <departamentua>6</departamentua>
+        </langilea>
 
-<!-- Empleado 15 -->
-<langilea id="15">
-    <izena>Elena</izena>
-    <abizena1>López</abizena1>
-    <abizena2>García</abizena2>
-    <jaiotze-data>1994-01-25</jaiotze-data>
-    <bizilekua>
-        <herrialdea>España</herrialdea>
-        <provintzia>Sevilla</provintzia>
-        <herria posta_k="41005">Sevilla</herria>
-        <kalea>Avenida de la Constitución</kalea>
-        <zenbakia>45</zenbakia>
-    </bizilekua>
-    <telefonoak>
-        <mugikorra>623456789</mugikorra>
-    </telefonoak>
-    <e-postak>
-        <pertsonala>elena.lopez@gmail.com</pertsonala>
-        <lanekoa>elopez@company.com</lanekoa>
-    </e-postak>
-    <argazkia>https://example.com/elena_lopez.jpg</argazkia>
-    <soldata>2800</soldata>
-    <kontratazio-data>2016-02-20</kontratazio-data>
-    <rola>an</rola>
-    <departamentua>6</departamentua>
-</langilea>
-</langileak>
-<rolak>
-    <rol id="an">
-        <izena>Analista</izena>
-        <deskripzioa>Analista bat datu, informazio edo egoera konplexuak aztertzen espezializatutako profesional bat da, ondorio esanguratsuak lortzeko eta erabaki arrazoituak hartzeko.</deskripzioa>
-    </rol>
-    <rol id="db">
-        <izena>Departamentu burua</izena>
-        <deskripzioa>Departamentu-buruak beren arloaren kudeaketan zentratzen dira: jarduerak banatzen dituzte, pertsonak antolatzen dituzte, erabakiak hartzen dituzte eta aginduak ematen dituzte</deskripzioa>
-    </rol>
-    <rol id="pr">
-        <izena>Programatzailea</izena>
-        <deskripzioa>Prototipoak programazio-lengoaia baten bidez inplementatzeaz arduratzen da.</deskripzioa>
-    </rol>
-    <rol id="rh">
-        <izena>RRHH</izena>
-        <deskripzioa>Politikak garatuz eta prozedurak kudeatuz talentua bildu, lagundu eta garatuko duen kualifikatua.</deskripzioa>
-    </rol>
-    <rol id="co">
-        <izena>CEO</izena>
-        <deskripzioa>Erakunde baten kudeaketa eta zuzendaritza administratiboko agintari gorena</deskripzioa>
-    </rol>
-    <rol id="ab">
-        <izena>Abokatua</izena>
-        <deskripzioa>Abokatuaren ardura izango da lege-aholkularitza ematea, bezeroak ordezkatzea lege-gaietan, eta lege eta erregulazio aplikagarriak betetzen direla bermatzea.</deskripzioa>
-    </rol>
-    <rol id="ek">
-        <izena>Ekonomista</izena>
-        <deskripzioa>Datu estatistikoak aztertzen dituzte eta, neurri batean, eredu matematiko ekonomikoekin lan egiten dute enpresei, gobernuei eta erakundeei aholkuak emateko.</deskripzioa>
-    </rol>
-</rolak>
+        <!-- Empleado 11 -->
+        <langilea id="11">
+            <izena>Carlos</izena>
+            <abizena1>Fernández</abizena1>
+            <abizena2>López</abizena2>
+            <jaiotze-data>1980-06-05</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Madrid</provintzia>
+                <herria posta_k="28025">Madrid</herria>
+                <kalea>Calle Mayor</kalea>
+                <zenbakia>90</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>645678901</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>carlos.fernandez@gmail.com</pertsonala>
+                <lanekoa>cfernandez@company.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/carlos_fernandez.jpg</argazkia>
+            <soldata>3200</soldata>
+            <kontratazio-data>2003-12-15</kontratazio-data>
+            <departamentua>2</departamentua>
+            <rola>ek</rola>
+        </langilea>
+
+        <!-- Empleado 12 -->
+        <langilea id="12">
+            <izena>Ana</izena>
+            <abizena1>García</abizena1>
+            <abizena2>Ruiz</abizena2>
+            <jaiotze-data>1991-10-20</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Valencia</provintzia>
+                <herria posta_k="46002">Valencia</herria>
+                <kalea>Calle Colón</kalea>
+                <zenbakia>35</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>632154789</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>ana.garcia@gmail.com</pertsonala>
+                <lanekoa>agarcia@empresa.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/ana_garcia.jpg</argazkia>
+            <soldata>3000</soldata>
+            <kontratazio-data>2013-05-18</kontratazio-data>
+            <departamentua>2</departamentua>
+            <rola>ek</rola>
+        </langilea>
+
+        <!-- Empleado 13 -->
+        <langilea id="13">
+            <izena>Marta</izena>
+            <abizena1>Martínez</abizena1>
+            <abizena2>López</abizena2>
+            <jaiotze-data>1986-07-08</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Barcelona</provintzia>
+                <herria posta_k="08015">Barcelona</herria>
+                <kalea>Paseo de Gracia</kalea>
+                <zenbakia>78</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>654321987</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>marta.martinez@gmail.com</pertsonala>
+                <lanekoa>mmartinez@company.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/marta_martinez.jpg</argazkia>
+            <soldata>2900</soldata>
+            <kontratazio-data>2010-08-30</kontratazio-data>
+            <departamentua>4</departamentua>
+            <rola>ab</rola>
+        </langilea>
+
+        <!-- Empleado 14 -->
+        <langilea id="14">
+            <izena>Diego</izena>
+            <abizena1>Fernández</abizena1>
+            <abizena2>González</abizena2>
+            <jaiotze-data>1983-04-15</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Madrid</provintzia>
+                <herria posta_k="28020">Madrid</herria>
+                <kalea>Calle Alcalá</kalea>
+                <zenbakia>120</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>678987654</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>diegofer@gmail.com</pertsonala>
+                <lanekoa>dfernandez@empresa.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/diego_fernandez.jpg</argazkia>
+            <soldata>3100</soldata>
+            <kontratazio-data>2007-11-25</kontratazio-data>
+            <rola>db</rola>
+            <departamentua>5</departamentua>
+        </langilea>
+
+        <!-- Empleado 15 -->
+        <langilea id="15">
+            <izena>Elena</izena>
+            <abizena1>López</abizena1>
+            <abizena2>García</abizena2>
+            <jaiotze-data>1994-01-25</jaiotze-data>
+            <bizilekua>
+                <herrialdea>España</herrialdea>
+                <provintzia>Sevilla</provintzia>
+                <herria posta_k="41005">Sevilla</herria>
+                <kalea>Avenida de la Constitución</kalea>
+                <zenbakia>45</zenbakia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>623456789</mugikorra>
+            </telefonoak>
+            <e-postak>
+                <pertsonala>elena.lopez@gmail.com</pertsonala>
+                <lanekoa>elopez@company.com</lanekoa>
+            </e-postak>
+            <argazkia>https://example.com/elena_lopez.jpg</argazkia>
+            <soldata>2800</soldata>
+            <kontratazio-data>2016-02-20</kontratazio-data>
+            <rola>an</rola>
+            <departamentua>6</departamentua>
+        </langilea>
+    </langileak>
+    <rolak>
+        <rol id="an">
+            <izena>Analista</izena>
+            <deskripzioa>Analista bat datu, informazio edo egoera konplexuak aztertzen
+                espezializatutako profesional bat da, ondorio esanguratsuak lortzeko eta erabaki
+                arrazoituak hartzeko.</deskripzioa>
+        </rol>
+        <rol id="db">
+            <izena>Departamentu burua</izena>
+            <deskripzioa>Departamentu-buruak beren arloaren kudeaketan zentratzen dira: jarduerak
+                banatzen dituzte, pertsonak antolatzen dituzte, erabakiak hartzen dituzte eta
+                aginduak ematen dituzte</deskripzioa>
+        </rol>
+        <rol id="pr">
+            <izena>Programatzailea</izena>
+            <deskripzioa>Prototipoak programazio-lengoaia baten bidez inplementatzeaz arduratzen da.</deskripzioa>
+        </rol>
+        <rol id="rh">
+            <izena>RRHH</izena>
+            <deskripzioa>Politikak garatuz eta prozedurak kudeatuz talentua bildu, lagundu eta
+                garatuko duen kualifikatua.</deskripzioa>
+        </rol>
+        <rol id="co">
+            <izena>CEO</izena>
+            <deskripzioa>Erakunde baten kudeaketa eta zuzendaritza administratiboko agintari gorena</deskripzioa>
+        </rol>
+        <rol id="ab">
+            <izena>Abokatua</izena>
+            <deskripzioa>Abokatuaren ardura izango da lege-aholkularitza ematea, bezeroak
+                ordezkatzea lege-gaietan, eta lege eta erregulazio aplikagarriak betetzen direla
+                bermatzea.</deskripzioa>
+        </rol>
+        <rol id="ek">
+            <izena>Ekonomista</izena>
+            <deskripzioa>Datu estatistikoak aztertzen dituzte eta, neurri batean, eredu matematiko
+                ekonomikoekin lan egiten dute enpresei, gobernuei eta erakundeei aholkuak emateko.</deskripzioa>
+        </rol>
+    </rolak>
 </erakundea>

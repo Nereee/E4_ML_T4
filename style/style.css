@@ -1,10 +1,18 @@
 /* Estilos comunes */
 
+
+* {
+box-sizing: border-box;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -21,6 +29,8 @@ footer {
     background-color: #343a40;
     color: #ffffff;
     padding: 20px 0;
+    
+    
 }
 
 footer .container3 {
@@ -227,3 +237,21 @@ h1 {
 }
 
 /* Estilos para la página principal */
+
+/* Estilos para departamentos */
+
+.grid-cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cambia el tamaño de las columnas según el tamaño del contenedor */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+.dep {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.lan {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
