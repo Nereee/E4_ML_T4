@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="eu">
-
-
 <head>
     <title>Intranet</title>
     <meta name="keywords" content="Elorrieta zinema, zinema, filmak, erreserbak, pelikulak">
@@ -19,38 +17,30 @@
     <?php
     session_start();
 
-    //limpiar sesion
     if (isset($_GET['role']) && isset($_GET['departamentua'])) {
         session_unset();
     }
-    // Ruta al archivo XML
+
     $ruta_xml = "datuak/intra.xml";
 
-    // Comprobamos si el archivo XML existe
     if (!file_exists($ruta_xml)) {
         die("El archivo XML no existe.");
     }
 
-    // Cargar el contenido del archivo XML
     $xml = simplexml_load_file($ruta_xml);
 
-    // Comprobar si la carga del XML fue exitosa
     if ($xml === false) {
         die("Error al cargar el archivo XML.");
     }
 
-    // Comprobar si existen los elementos departamentuak y rolak
     if (!isset($xml->departamentuak) || !isset($xml->rolak)) {
         die("El archivo XML no contiene la estructura esperada.");
     }
 
-    // Extraer los departamentos
     $departamentos = $xml->departamentuak->departamentua;
 
-    // Extraer los roles
     $roles = $xml->rolak->rol;
 
-    // Función para imprimir opciones de desplegable
     function imprimirOpciones($items)
     {
         foreach ($items as $item) {
@@ -66,16 +56,6 @@
         $_SESSION['departamentua'] = "";
         $_SESSION['rol'] = "";
     }
-
-    /*
-    function langileakErakutsi($departamentua, $rol)
-    {
-        $xml = simplexml_load_file("datuak/intra.xml");
-        $langileak = $xml->xpath("//langileak/langilea[departamentua = '$departamentua' and rola = '$rol']");
-        foreach ($langileak as $langilea) {
-            echo '<p>' . $langilea->izena . "</p> <br>";
-        }
-    }*/
 
     function langileakErakutsi($departamentua, $rol)
     {
