@@ -20,8 +20,7 @@
 
 </head>
 
-
-<body onload="konprobatulogin()">
+<body>
     <header>
         <div class="container">
             <div class="logo">
@@ -30,7 +29,7 @@
         </div>
     </header>
 <body>
-    <section class="formularioaH">
+    <main class="formularioaH">
     <h5>Saio hasiera</h5>
     <form id="botoia" action="index.php" method="post">
             <input class="control" type="text" name="fname" value="" placeholder="Idatzi zure izena" required>
@@ -39,7 +38,7 @@
     </form>
 
     <p><a href="#"><b>Ez dut pasahitza gogoratzen</b></a></p>
-    </section>
+    </main>
     <footer>
         <div class="container3">
             <div class="info-footer">
@@ -75,6 +74,7 @@
         </div>
     </footer>
     <?php
+        // Eskuratu datuak
         error_reporting(0);
         $username = $_POST["fname"];
         $password = $_POST["fpassword"];

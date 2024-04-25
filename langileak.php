@@ -18,30 +18,29 @@
     <?php
     session_start();
 
-    if (isset($_GET['role']) && isset($_GET['departamentua'])) {
-        session_unset();
-    }
-
     $ruta_xml = "datuak/intra.xml";
 
+    // XML fitxategiaren existentzia egiaztatu
     if (!file_exists($ruta_xml)) {
-        die("El archivo XML no existe.");
+        die("XML fitxategia ez da existitzen.");
     }
 
     $xml = simplexml_load_file($ruta_xml);
 
+    // XML fitxategiaren kargak ondo egin den egiaztatu
     if ($xml === false) {
-        die("Error al cargar el archivo XML.");
+        die("Ezinezkoa izan da XML fitxategia kargatzea.");
     }
 
     if (!isset($xml->departamentuak) || !isset($xml->rolak)) {
-        die("El archivo XML no contiene la estructura esperada.");
+        die("XML fitxategiak espero den egitura ez dauka.");
     }
 
     $departamentos = $xml->departamentuak->departamentua;
 
     $roles = $xml->rolak->rol;
 
+    // Aukerak erakutsi
     function imprimirOpciones($items)
     {
         foreach ($items as $item) {
@@ -49,7 +48,7 @@
         }
     }
 
-
+    // Departamentua eta rola aukeratuta badira, sesioan gorde
     if (isset($_GET['departamentua']) && isset($_GET['rolak'])) {
         $_SESSION['departamentua'] = $_GET['departamentua'];
         $_SESSION['rol'] = $_GET['rolak'];
@@ -58,11 +57,16 @@
         $_SESSION['rol'] = "";
     }
 
+    // XML fitxategiaren langileak erakutsi filtroaren arabera
     function langileakErakutsi($departamentua, $rol)
     {
         $xml = simplexml_load_file("datuak/intra.xml");
-        if ($departamentua != "" && $departamentua != "") {
+        if ($departamentua != "" && $rol != "") {
             $langileak = $xml->xpath("//langileak/langilea[departamentua = '$departamentua' and rola = '$rol']");
+        } elseif ($departamentua != "") {
+            $langileak = $xml->xpath("//langileak/langilea[departamentua = '$departamentua']");
+        } elseif ($rol != "") {
+            $langileak = $xml->xpath("//langileak/langilea[rola = '$rol']");
         } else {
             $langileak = $xml->xpath("//langileak/langilea");
         }
@@ -70,7 +74,7 @@
             echo '<div class="lan"><img class="largazkia" src="' . $langilea->argazkia . '">
             <p>' . $langilea->izena . " " . $langilea->abizena1 . " " . $langilea->abizena2 . "</p>
             <p>" . $langilea->jaiotze_data . "</p>
-            <p>" . $langilea->bizilekua->herrialdea . ", " . $langilea->bizilekua->provintzia . ", " . $langilea->bizilekua->herria . "
+            <p>" . $langilea->bizilekua->herrialdea . ", " . $langilea->bizilekua->probintzia . ", " . $langilea->bizilekua->herria . "
             <p>" . $langilea->telefonoak->mugikorra . "</div>";
         }
     }
@@ -93,15 +97,15 @@
     </header>
 
 
-
+    <!-- Langileak ezarri era dinamiko batean filtroa aplikatzeko ahalmenarekin -->
     <main>
         <form id="filterForm">
             <select name="departamentua" id="departamentua">
-                <option value="">-</option>
+                <option value="">Guztiak</option>
                 <?php imprimirOpciones($departamentos); ?>
             </select>
             <select name="rolak" id="rolak">
-                <option value="">-</option>
+                <option value="">Guztiak</option>
                 <?php imprimirOpciones($roles); ?>
             </select>
             <button type="button" onclick=ArkeztuLangileak()>Filtrar</button>
@@ -158,6 +162,7 @@
         </div>
     </footer>
     <script>
+        // Filtroa aplikatzeko funtzioa
         function ArkeztuLangileak() {
             var departamentua = document.getElementById("departamentua").value;
             var rol = document.getElementById("rolak").value;

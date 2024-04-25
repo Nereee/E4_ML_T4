@@ -39,46 +39,42 @@ session_start();
 
     <main>
         <?php
-
-
-
-
-        // Ruta al archivo XML
+        // XMLaren ruta
         $ruta_xml = "datuak/intra.xml";
 
         // Comprobamos si el archivo XML existe
         if (!file_exists($ruta_xml)) {
-            die("El archivo XML no existe.");
+            die("XML fitxategia ez da existitzen.");
         }
 
-        // Cargar el contenido del archivo XML
+        // Kargatu XML fitxategiaren edukia
         $xml = simplexml_load_file($ruta_xml);
 
-        // Comprobar si la carga del XML fue exitosa
+        // XML fitxategiaren kargak ondo egin den egiaztatu
         if ($xml === false) {
-            die("Error al cargar el archivo XML.");
+            die("XML fitxategia kargatzean errorea gertatu da.");
         }
 
-        // Comprobar si existen los elementos departamentuak y rolak
+        // Departamentuak eta rolak elementuak existitzen diren egiaztatu
         if (!isset($xml->departamentuak) || !isset($xml->rolak)) {
-            die("El archivo XML no contiene la estructura esperada.");
+            die("XML fitxategiak espero den egitura ez dauka.");
         }
 
-        // Extraer los departamentos
+        // Departamentuak atera
         $departamentos = $xml->departamentuak->departamentua;
 
 
-        // Función para imprimir opciones de desplegable
+        // Desplegableko aukerak inprimatzeko funtzioa
         function imprimirOpciones($items)
         {
             foreach ($items as $item) {
-                echo '<div class=dep>' . '<p>' . 'Departamentu Izena: ' . $item->izena . '<br>' . 'Probintzia: ' . $item->helbidea->provintzia . '<br>' . 'Herria: ' . $item->helbidea->herria . '<br>' . 'Kalea: ' . $item->helbidea->kalea . '<br>' . 'Telefonoa: ' . $item->telefonoa . '<br>' . 'E-posta: ' . $item->e_posta . '</p>' . '</div>';
+            echo '<div class=dep>' . '<p>' . 'Departamentu Izena: ' . $item->izena . '<br>' . 'Probintzia: ' . $item->helbidea->provintzia . '<br>' . 'Herria: ' . $item->helbidea->herria . '<br>' . 'Kalea: ' . $item->helbidea->kalea . '<br>' . 'Telefonoa: ' . $item->telefonoa . '<br>' . 'E-posta: ' . $item->e_posta . '</p>' . '</div>';
             }
         }
 
         ?>
 
-
+        <!-- Departamentuak ezarri era dinamiko batean -->
         <h1>Departamentuak</h1>
 
         <div class="grid-cont">

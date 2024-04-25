@@ -1,11 +1,8 @@
-/* Estilos comunes */
-
-
 * {
 box-sizing: border-box;
-
 }
 
+/* Bodyaren estiloak */
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -30,6 +27,7 @@ main {
     height: auto;
 }
 
+/* Footeraren estiloak */
 footer {
     background-color: #343a40;
     color: #ffffff;
@@ -62,7 +60,7 @@ footer ul li {
     margin-right: 5px;
 }
 
-/* Estilos para el formulario de inicio de sesión */
+/* Hasierako saio hasierako formularioaren estiloak */
 
 .formularioaH {
     background-color: #f8f9fa;
@@ -126,11 +124,7 @@ footer ul li {
     text-decoration: underline;
 }
 
-/* Estilos para el formulario de inicio de sesión */
-
-/* Estilos para la página principal */
-
-/* Estilos para el menú de navegación */
+/* Nabigazio menuaren estiloak */
 
 nav img{
     height: 150px;
@@ -177,9 +171,7 @@ nav ul li a {
     background-color: #555b61;
 }
 
-/* Estilos para el menú de navegación */
-
-/* Estilos para la página principal */
+/* Orrialde nagusiaren estiloak */
 
 .container2 {
     display: flex;
@@ -188,6 +180,7 @@ nav ul li a {
     margin-top: 20px;
 }
 
+/* mainen argazkiak*/
 .img1,
 .img2,
 .img3,
@@ -251,7 +244,7 @@ h1 {
     text-align: center;
 }
 
-/* Estilos para el filtro */
+/* Iragazkia estiloak */
 #filterForm {
     display: flex;
     justify-content: center;
@@ -281,12 +274,12 @@ h1 {
   #filterForm button:hover {
     background-color:  rgb(54, 53, 53);
   }
-/* Estilos para departamentos */
+/* Departamentuen estiloak eta langileenak */
 
 .grid-cont {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cambia el tamaño de las columnas según el tamaño del contenedor */
-    gap: 10px; /* Espacio entre los elementos */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Aldatu zutabeen tamaina edukionaren tamainaren arabera */
+    gap: 10px; /* Elementuen arteko tartea */
     background-color: rgb(240, 228, 215);
     
 }

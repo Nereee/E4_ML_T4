@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<erakundea>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<erakundea xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="intra.xsd">
     <departamentuak>
         <departamentua id="1">
             <izena>Giza_baliabideak</izena>
             <helbidea>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48011">Bilbo</herria>
                 <kalea>Juan de la Cosa</kalea>
                 <zenbakia>15</zenbakia>
@@ -19,7 +19,7 @@
             <izena>Marketin</izena>
             <helbidea>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48011">Bilbo</herria>
                 <kalea>Calle Santutxu</kalea>
                 <zenbakia>20</zenbakia>
@@ -33,7 +33,7 @@
             <izena>Zuzendaritza Orokorra</izena>
             <helbidea>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48009">Bilbo</herria>
                 <kalea>Alameda de Mazarredo</kalea>
                 <zenbakia>25</zenbakia>
@@ -47,7 +47,7 @@
             <izena>Lege-Saila</izena>
             <helbidea>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48480">Arrigorriaga</herria>
                 <kalea>Calle Dr.Fleming</kalea>
                 <zenbakia>4</zenbakia>
@@ -61,7 +61,7 @@
             <izena>Salmentak</izena>
             <helbidea>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48970">Basauri</herria>
                 <kalea>Kareaga Goikoa</kalea>
                 <zenbakia>16</zenbakia>
@@ -75,7 +75,7 @@
             <izena>Ekoizpena</izena>
             <helbidea>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48480">Arrigorriaga</herria>
                 <kalea>Santa Isabel</kalea>
                 <zenbakia>7</zenbakia>
@@ -96,7 +96,7 @@
             <jaoiotze_data>2005-03-11</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48480">Arrigorriaga</herria>
                 <kalea>Ramon y cajal</kalea>
                 <zenbakia>9</zenbakia>
@@ -122,7 +122,7 @@
             <jaoiotze_data>1990-07-15</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Barcelona</provintzia>
+                <probintzia>Barcelona</probintzia>
                 <herria posta_k="08002">Barcelona</herria>
                 <kalea>Avenida Diagonal</kalea>
                 <zenbakia>123</zenbakia>
@@ -149,7 +149,7 @@
             <jaoiotze_data>1985-12-03</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Madrid</provintzia>
+                <probintzia>Madrid</probintzia>
                 <herria posta_k="28001">Madrid</herria>
                 <kalea>Calle Gran Vía</kalea>
                 <zenbakia>45</zenbakia>
@@ -176,7 +176,7 @@
             <jaoiotze_data>1978-05-20</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Valencia</provintzia>
+                <probintzia>Valencia</probintzia>
                 <herria posta_k="46001">Valencia</herria>
                 <kalea>Avenida del Puerto</kalea>
                 <zenbakia>78</zenbakia>
@@ -203,7 +203,7 @@
             <jaoiotze_data>1993-02-28</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Alicante</provintzia>
+                <probintzia>Alicante</probintzia>
                 <herria posta_k="03001">Alicante</herria>
                 <kalea>Paseo de la Explanada</kalea>
                 <zenbakia>15</zenbakia>
@@ -230,7 +230,7 @@
             <jaoiotze_data>1989-09-10</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Sevilla</provintzia>
+                <probintzia>Sevilla</probintzia>
                 <herria posta_k="41001">Sevilla</herria>
                 <kalea>Calle Sierpes</kalea>
                 <zenbakia>20</zenbakia>
@@ -257,7 +257,7 @@
             <jaoiotze_data>1992-08-25</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Madrid</provintzia>
+                <probintzia>Madrid</probintzia>
                 <herria posta_k="28010">Madrid</herria>
                 <kalea>Calle Princesa</kalea>
                 <zenbakia>67</zenbakia>
@@ -272,9 +272,9 @@
             <argazkia>./image/empleado.png</argazkia>
             <soldata>2800</soldata>
             <kontratazio-data>2014-03-15</kontratazio-data>
-            <departamentua>3</departamentua>
             <rola>co</rola>
             <rola>db</rola>
+            <departamentua>3</departamentua>
         </langilea>
 
         <!-- Empleado 8 -->
@@ -285,7 +285,7 @@
             <jaoiotze_data>1987-04-18</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Valencia</provintzia>
+                <probintzia>Valencia</probintzia>
                 <herria posta_k="46021">Valencia</herria>
                 <kalea>Calle de la Paz</kalea>
                 <zenbakia>34</zenbakia>
@@ -312,7 +312,7 @@
             <jaoiotze_data>1984-11-12</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Barcelona</provintzia>
+                <probintzia>Barcelona</probintzia>
                 <herria posta_k="08001">Barcelona</herria>
                 <kalea>Ronda Sant Pere</kalea>
                 <zenbakia>56</zenbakia>
@@ -339,7 +339,7 @@
             <jaoiotze_data>1995-03-29</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Sevilla</provintzia>
+                <probintzia>Sevilla</probintzia>
                 <herria posta_k="41010">Sevilla</herria>
                 <kalea>Avenida de la Constitución</kalea>
                 <zenbakia>78</zenbakia>
@@ -366,7 +366,7 @@
             <jaoiotze_data>1980-06-05</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Madrid</provintzia>
+                <probintzia>Madrid</probintzia>
                 <herria posta_k="28025">Madrid</herria>
                 <kalea>Calle Mayor</kalea>
                 <zenbakia>90</zenbakia>
@@ -381,8 +381,8 @@
             <argazkia>./image/empleado.png</argazkia>
             <soldata>3200</soldata>
             <kontratazio-data>2003-12-15</kontratazio-data>
-            <departamentua>2</departamentua>
             <rola>ek</rola>
+            <departamentua>2</departamentua>
         </langilea>
 
         <!-- Empleado 12 -->
@@ -393,7 +393,7 @@
             <jaoiotze_data>1991-10-20</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Valencia</provintzia>
+                <probintzia>Valencia</probintzia>
                 <herria posta_k="46002">Valencia</herria>
                 <kalea>Calle Colón</kalea>
                 <zenbakia>35</zenbakia>
@@ -408,8 +408,9 @@
             <argazkia>./image/empleada.png</argazkia>
             <soldata>3000</soldata>
             <kontratazio-data>2013-05-18</kontratazio-data>
-            <departamentua>2</departamentua>
             <rola>ek</rola>
+            <departamentua>2</departamentua>
+            
         </langilea>
 
         <!-- Empleado 13 -->
@@ -420,7 +421,7 @@
             <jaoiotze_data>1986-07-08</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Barcelona</provintzia>
+                <probintzia>Barcelona</probintzia>
                 <herria posta_k="08015">Barcelona</herria>
                 <kalea>Paseo de Gracia</kalea>
                 <zenbakia>78</zenbakia>
@@ -435,8 +436,9 @@
             <argazkia>./image/empleada.png</argazkia>
             <soldata>2900</soldata>
             <kontratazio-data>2010-08-30</kontratazio-data>
-            <departamentua>4</departamentua>
             <rola>ab</rola>
+            <departamentua>4</departamentua>
+            
         </langilea>
 
         <!-- Empleado 14 -->
@@ -447,7 +449,7 @@
             <jaoiotze_data>1983-04-15</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Madrid</provintzia>
+                <probintzia>Madrid</probintzia>
                 <herria posta_k="28020">Madrid</herria>
                 <kalea>Calle Alcalá</kalea>
                 <zenbakia>120</zenbakia>
@@ -474,7 +476,7 @@
             <jaoiotze_data>1994-01-25</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Sevilla</provintzia>
+                <probintzia>Sevilla</probintzia>
                 <herria posta_k="41005">Sevilla</herria>
                 <kalea>Avenida de la Constitución</kalea>
                 <zenbakia>45</zenbakia>
