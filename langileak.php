@@ -73,7 +73,7 @@
             $langileak = $xml->xpath("//langileak/langilea");
         }
         foreach ($langileak as $langilea) {
-            echo '<div class="lan"><img class="largazkia" src="' . $langilea->argazkia . '">
+            echo '<div class="lan"><img class="largazkia" src="' . $langilea->argazkia . '" alt="' . $langilea->izena . '">
             <p>' . $langilea->izena . " " . $langilea->abizena1 . " " . $langilea->abizena2 . "</p>
             <p>" . $langilea->jaiotze_data . "</p>
             <p>" . $langilea->bizilekua->herrialdea . ", " . $langilea->bizilekua->probintzia . ", " . $langilea->bizilekua->herria . "

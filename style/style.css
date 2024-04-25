@@ -182,8 +182,7 @@ nav ul li a {
 /* mainen argazkiak*/
 .img1,
 .img2,
-.img3,
-.img4 {
+.img3 {
     flex: 1 1 calc(50% - 20px);
     margin-bottom: 20px;
     border-radius: 10px;
@@ -195,8 +194,7 @@ nav ul li a {
 
 .img1 img,
 .img2 img,
-.img3 img,
-.img4 img {
+.img3 img {
     width: 100%;
     height: auto;
     display: block;
@@ -205,8 +203,7 @@ nav ul li a {
 
 .img1:hover,
 .img2:hover,
-.img3:hover,
-.img4:hover {
+.img3:hover {
     transform: translateY(-5px);
 }
 
@@ -232,7 +229,6 @@ nav ul li a {
     .img1,
     .img2,
     .img3,
-    .img4,
     .info-index {
         flex-basis: calc(100% - 20px);
         margin-bottom: 20px;
