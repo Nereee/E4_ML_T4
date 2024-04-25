@@ -3,10 +3,9 @@
 
 <head>
     <title>Intranet</title>
-    <meta name="keywords" content="Elorrieta zinema, zinema, filmak, erreserbak, pelikulak">
-    <meta name="author" content="Summer bath">
-    <meta name="description"
-        content="Elorrieta zinemaren webgunea. Hurrengo HTMLa Matrillu-gatik eginda dago zinema baterako.">
+    <meta name="keywords" content="Langileak, Dinamikoa, Filtroa, Schotify">
+    <meta name="author" content="HEA">
+    <meta name="description" content="langileak ikertzeko era dinamiko eta filtroak aplikatzeko ahalmenarekin">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="image/Schotify.png" type="image/x-icon">
@@ -14,7 +13,10 @@
     <script src="https://kit.fontawesome.com/9b73a90cb7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
+
+<body>
     <?php
     session_start();
 
@@ -79,10 +81,6 @@
         }
     }
     ?>
-</head>
-
-
-<body>
     <header>
         <nav>
             <img src="image/Schotify.png" alt="logoa">

@@ -7,9 +7,9 @@ session_start();
 
 <head>
     <title>Intraneteko Langileen erregistroa</title>
-    <meta name="keywords" content="Schotify">
+    <meta name="keywords" content="Departamentuak, Dinamikoa, Filtroa, Schotify">
     <meta name="author" content="HEA">
-    <meta name="description" content="Hasi saioa orria">
+    <meta name="description" content="Departamentuak ikertzeko gunea">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="image/Schotify.png" type="image/x-icon">
@@ -17,8 +17,6 @@ session_start();
     <script src="https://kit.fontawesome.com/9b73a90cb7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
 </head>
 
 
@@ -26,7 +24,7 @@ session_start();
 
     <header>
         <nav>
-        <img src="image/Schotify.png" alt="logoa">
+            <img src="image/Schotify.png" alt="logoa">
             <ul>
                 <li><a href="main.html">Hasiera</a></li>
                 <li><a href="departamentuak.php">Departamentuak</a></li>
@@ -68,7 +66,7 @@ session_start();
         function imprimirOpciones($items)
         {
             foreach ($items as $item) {
-            echo '<div class=dep>' . '<p>' . 'Departamentu Izena: ' . $item->izena . '<br>' . 'Probintzia: ' . $item->helbidea->provintzia . '<br>' . 'Herria: ' . $item->helbidea->herria . '<br>' . 'Kalea: ' . $item->helbidea->kalea . '<br>' . 'Telefonoa: ' . $item->telefonoa . '<br>' . 'E-posta: ' . $item->e_posta . '</p>' . '</div>';
+                echo '<div class=dep>' . '<p>' . 'Departamentu Izena: ' . $item->izena . '<br>' . 'Probintzia: ' . $item->helbidea->provintzia . '<br>' . 'Herria: ' . $item->helbidea->herria . '<br>' . 'Kalea: ' . $item->helbidea->kalea . '<br>' . 'Telefonoa: ' . $item->telefonoa . '<br>' . 'E-posta: ' . $item->e_posta . '</p>' . '</div>';
             }
         }
 

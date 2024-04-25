@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<erakundea xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="intra.xsd">
+<erakundea xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="intra.xsd">
     <departamentuak>
         <departamentua id="1">
             <izena>Giza_baliabideak</izena>
@@ -410,7 +411,7 @@
             <kontratazio-data>2013-05-18</kontratazio-data>
             <rola>ek</rola>
             <departamentua>2</departamentua>
-            
+
         </langilea>
 
         <!-- Empleado 13 -->
@@ -438,7 +439,7 @@
             <kontratazio-data>2010-08-30</kontratazio-data>
             <rola>ab</rola>
             <departamentua>4</departamentua>
-            
+
         </langilea>
 
         <!-- Empleado 14 -->
