@@ -28,10 +28,10 @@
                                 <a href="main.html">Hasiera</a>
                             </li>
                             <li>
-                                <a href="departamentuak.php">Departamentuak</a>
+                                <a href="departamentua.php">Departamentuak</a>
                             </li>
                             <li>
-                                <a href="langileak.php">Langileak</a>
+                                <a href="langile.php">Langileak</a>
                             </li>
                         </ul>
 
@@ -70,8 +70,10 @@
                     </form>
                     <div class="grid-cont">
                         <xsl:for-each select="langileak/langilea">
-                            <xsl:if test='rola=$id_rola or rola=""'>
-                                <xsl:if test='departamentua=$id_departamentua or departamentua=""'>
+                            <xsl:if
+                                test='rola=$id_rola or $id_rola=""'>
+                                <xsl:if
+                                    test='departamentua=$id_departamentua or $id_departamentua=""'>
                                     <div class="lan">
                                         <img class="largazkia">
                                             <xsl:attribute name="src"><xsl:value-of
@@ -80,17 +82,17 @@
                                         </img>
                                         <p>
                                             <xsl:value-of select="izena"></xsl:value-of>
-                                            <xsl:text select=" "></xsl:text>
+                                            <xsl:text> </xsl:text>
                                             <xsl:value-of select="abizena1"></xsl:value-of>
-                                            <xsl:text select=" "></xsl:text>
+                                            <xsl:text> </xsl:text>
                                             <xsl:value-of select="abizena2"></xsl:value-of>
                                         </p>
                                         <p>Jaiotze data:<xsl:value-of select="jaoiotze_data"></xsl:value-of></p>
                                         <p>
                                             <xsl:value-of select="bizilekua/herrialdea"></xsl:value-of>
-                                            <xsl:text select=" "></xsl:text>
+                                            <xsl:text> </xsl:text>
                                             <xsl:value-of select="bizilekua/probintzia"></xsl:value-of>
-                                            <xsl:text select=" "></xsl:text>
+                                            <xsl:text> </xsl:text>
                                             <xsl:value-of select="bizilekua/herria"></xsl:value-of>
                                         </p>
                                         <p>
