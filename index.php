@@ -6,7 +6,7 @@ session_start();
 <html lang="eu">
 
 <head>
-    <title>Elorrieta zinema</title>
+    <title>Intrarako sarbidea</title>
     <meta name="keywords" content="Schotify, Saioa, Loggin">
     <meta name="author" content="HEA">
     <meta name="description" content="Hasi saioa orria">

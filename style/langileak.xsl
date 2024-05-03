@@ -5,7 +5,7 @@
         <html lang="eu">
 
             <head>
-                <title>Intranet</title>
+                <title>Intraneteko langileak</title>
                 <meta name="keywords" content="Langileak, Dinamikoa, Filtroa, Schotify" />
                 <meta name="author" content="HEA" />
                 <meta name="description"

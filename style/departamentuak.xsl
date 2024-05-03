@@ -51,7 +51,7 @@
                                     <xsl:value-of select="izena" />
                                     <br />
                                     <xsl:text>Probintzia: </xsl:text>
-                                    <xsl:value-of select="helbidea/provintzia" />
+                                    <xsl:value-of select="helbidea/probintzia" />
                                     <br />
                                     <xsl:text>Herria: </xsl:text>
                                     <xsl:value-of select="helbidea/herria" />
