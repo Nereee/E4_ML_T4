@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" version="5"></xsl:output>
-    <xsl:param name="id_departamentua" select="substring-after(document-uri(/), 'departamentua=')" />
-    <xsl:param name="id_rola" select="substring-after(document-uri(/), 'rolak=')" />
+    <xsl:param name="id_departamentua" select="''"/>
+    <xsl:param name="id_rola" select="''"/>
     <xsl:template match="erakundea">
         <html lang="eu">
 
@@ -47,7 +47,7 @@
 
                     <form id="filterForm" method="GET" action="langile.php">
                         <select name="departamentua" id="departamentua">
-                            <option value="">Dpto: Guztiak</option>
+                            <option value="">Guztiak</option>
                             <xsl:for-each select="departamentuak/departamentua">
                                 <option>
                                     <xsl:attribute name="value">
@@ -57,12 +57,8 @@
                                 </option>
                             </xsl:for-each>
                         </select>
-
-                        <xsl:value-of select="$id_rola" />
-                        <xsl:text>|</xsl:text>
-                        
                         <select name="rolak" id="rolak">
-                            <option value=" ">Rol: Guztiak</option>
+                            <option value=" ">Guztiak</option>
                             <xsl:for-each select="rolak/rol ">
                                 <option>
                                     <xsl:attribute name="value">
@@ -76,35 +72,32 @@
                     </form>
                     <div class="grid-cont">
                         <xsl:for-each select="langileak/langilea">
-                            <xsl:if test='($id_rola = "" or rola = $id_rola)'>
-                                <xsl:value-of select="id_rola" />
-                                <xsl:text>|</xsl:text>
-                                <xsl:value-of select="rola" />
-                                <div class="lan">
-                                    <img class="largazkia">
-                                        <xsl:attribute name="src"><xsl:value-of
-                                                select="argazkia"></xsl:value-of></xsl:attribute>
-                                        <xsl:attribute name="alt"><xsl:value-of select="izena"></xsl:value-of></xsl:attribute>
-                                    </img>
-                                    <p>
-                                        <xsl:value-of select="izena"></xsl:value-of>
-                                        <xsl:text> </xsl:text>
-                                        <xsl:value-of select="abizena1"></xsl:value-of>
-                                        <xsl:text> </xsl:text>
-                                        <xsl:value-of select="abizena2"></xsl:value-of>
-                                    </p>
-                                    <p>Jaiotze data:<xsl:value-of select="jaoiotze_data"></xsl:value-of></p>
-                                    <p>
-                                        <xsl:value-of select="bizilekua/herrialdea"></xsl:value-of>
-                                        <xsl:text> </xsl:text>
-                                        <xsl:value-of select="bizilekua/probintzia"></xsl:value-of>
-                                        <xsl:text> </xsl:text>
-                                        <xsl:value-of select="bizilekua/herria"></xsl:value-of>
-                                    </p>
-                                    <p>
-                                        <xsl:value-of select="telefonoak/mugikorra"></xsl:value-of>
-                                    </p>
-                                </div>
+                        <xsl:if test='($id_rola = "" or rola = $id_rola) and ($id_departamentua = "" or departamentua = $id_departamentua)'>
+                                    <div class="lan">
+                                        <img class="largazkia">
+                                            <xsl:attribute name="src"><xsl:value-of
+                                                    select="argazkia"></xsl:value-of></xsl:attribute>
+                                            <xsl:attribute name="alt"><xsl:value-of select="izena"></xsl:value-of></xsl:attribute>
+                                        </img>
+                                        <p>
+                                            <xsl:value-of select="izena"></xsl:value-of>
+                                            <xsl:text> </xsl:text>
+                                            <xsl:value-of select="abizena1"></xsl:value-of>
+                                            <xsl:text> </xsl:text>
+                                            <xsl:value-of select="abizena2"></xsl:value-of>
+                                        </p>
+                                        <p>Jaiotze data:<xsl:value-of select="jaoiotze_data"></xsl:value-of></p>
+                                        <p>
+                                            <xsl:value-of select="bizilekua/herrialdea"></xsl:value-of>
+                                            <xsl:text> </xsl:text>
+                                            <xsl:value-of select="bizilekua/probintzia"></xsl:value-of>
+                                            <xsl:text> </xsl:text>
+                                            <xsl:value-of select="bizilekua/herria"></xsl:value-of>
+                                        </p>
+                                        <p>
+                                            <xsl:value-of select="telefonoak/mugikorra"></xsl:value-of>
+                                        </p>
+                                    </div>
                             </xsl:if>
                         </xsl:for-each>
                     </div>
