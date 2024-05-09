@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" version="5"></xsl:output>
-    <xsl:param name="id_departamentua" select="substring-after(document-uri(/), 'departamentua=')" />
-    <xsl:param name="id_rola" select="substring-after(document-uri(/), 'rolak=')" />
+    <xsl:param name="id_departamentua"/>
+    <xsl:param name="id_rola" />
     <xsl:template match="erakundea">
         <html lang="eu">
 
