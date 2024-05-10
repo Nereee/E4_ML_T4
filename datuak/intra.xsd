@@ -10,6 +10,7 @@
                                 <xsd:complexType>
                                     <xsd:sequence>
                                         <xsd:element name="izena" type="xsd:string" />
+                                        <xsd:element name="argazkia" type="xsd:string" />
                                         <xsd:element name="helbidea">
                                             <xsd:complexType>
                                                 <xsd:sequence>

@@ -8,7 +8,7 @@
 
             <head>
                 <title>Intraneteko langileak</title>
-                <meta name="keywords" content="Langileak, Rolak, Dinamikoa, Filtroa, Schotify" />
+                <meta name="keywords" content="Langileak, Departamentuak, Dinamikoa, Filtroa, Schotify" />
                 <meta name="author" content="HEA" />
                 <meta name="description"
                     content="langileak ikertzeko era dinamiko eta filtroak aplikatzeko ahalmenarekin" />
@@ -42,9 +42,9 @@
                 </header>
 
 
-                <!-- Langileak ezarri rola filtratuta -->
+                <!-- Langileak ezarri era dinamiko batean filtroa aplikatzeko ahalmenarekin -->
                 <main>
-
+                    <!-- Filtroak -->
                     <form id="filterForm" method="GET" action="langile.php">
                         <select name="departamentua" id="departamentua">
                             <option value="">Dpto: Guztiak</option>
@@ -57,6 +57,7 @@
                                 </option>
                             </xsl:for-each>
                         </select>
+
 
                         <select name="rolak" id="rolak">
                             <option value=" ">Rol: Guztiak</option>
@@ -71,9 +72,10 @@
                         </select>
                         <button type="submit">Filtratu</button>
                     </form>
+                    <!-- Langileak aurkeztu departamentua filtratuta -->
                     <div class="grid-cont">
                         <xsl:for-each select="langileak/langilea">
-                            <xsl:if test='($id_rola = "" or rola = $id_rola)'>
+                            <xsl:if test='(departamentua = $id_departamentua)'>
                                 <div class="lan">
                                     <a href="{e-postak/lanekoa}" target="_blank">
                                         <img>
@@ -104,7 +106,6 @@
                                 </div>
                             </xsl:if>
                         </xsl:for-each>
-                        
                     </div>
                 </main>
 

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" version="5"></xsl:output>
-    <xsl:param name="id_departamentua" select="''"/>
-    <xsl:param name="id_rola" select="''"/>
+    <xsl:param name="id_departamentua" />
+    <xsl:param name="id_rola" />
     <xsl:template match="erakundea">
         <html lang="eu">
 
             <head>
                 <title>Intraneteko langileak</title>
-                <meta name="keywords" content="Langileak, Dinamikoa, Filtroa, Schotify" />
+                <meta name="keywords" content="Langileak, Rolak, Departamentuak, Dinamikoa, Filtroa, Schotify" />
                 <meta name="author" content="HEA" />
                 <meta name="description"
                     content="langileak ikertzeko era dinamiko eta filtroak aplikatzeko ahalmenarekin" />
@@ -42,12 +42,12 @@
                 </header>
 
 
-                <!-- Langileak ezarri era dinamiko batean filtroa aplikatzeko ahalmenarekin -->
+                <!-- Arukeztu rolak eta departamentuak -->
                 <main>
 
                     <form id="filterForm" method="GET" action="langile.php">
                         <select name="departamentua" id="departamentua">
-                            <option value="">Guztiak</option>
+                            <option value="">Dpto: Guztiak</option>
                             <xsl:for-each select="departamentuak/departamentua">
                                 <option>
                                     <xsl:attribute name="value">
@@ -58,7 +58,7 @@
                             </xsl:for-each>
                         </select>
                         <select name="rolak" id="rolak">
-                            <option value=" ">Guztiak</option>
+                            <option value=" ">Rol: Guztiak</option>
                             <xsl:for-each select="rolak/rol ">
                                 <option>
                                     <xsl:attribute name="value">
@@ -70,34 +70,38 @@
                         </select>
                         <button type="submit">Filtratu</button>
                     </form>
+                    <!-- Langileak filtratuta departamentua eta rola erabiliz -->
                     <div class="grid-cont">
                         <xsl:for-each select="langileak/langilea">
-                        <xsl:if test='($id_rola = "" or rola = $id_rola) and ($id_departamentua = "" or departamentua = $id_departamentua)'>
-                                    <div class="lan">
-                                        <img class="largazkia">
+                            <xsl:if test='(rola = $id_rola and departamentua = $id_departamentua)'>
+                                <div class="lan">
+                                    <a href="{e-postak/lanekoa}" target="_blank">
+                                        <img>
                                             <xsl:attribute name="src"><xsl:value-of
                                                     select="argazkia"></xsl:value-of></xsl:attribute>
-                                            <xsl:attribute name="alt"><xsl:value-of select="izena"></xsl:value-of></xsl:attribute>
+                                            <xsl:attribute name="alt"><xsl:value-of
+                                                    select="izena"></xsl:value-of></xsl:attribute>
                                         </img>
-                                        <p>
-                                            <xsl:value-of select="izena"></xsl:value-of>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:value-of select="abizena1"></xsl:value-of>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:value-of select="abizena2"></xsl:value-of>
-                                        </p>
-                                        <p>Jaiotze data:<xsl:value-of select="jaoiotze_data"></xsl:value-of></p>
-                                        <p>
-                                            <xsl:value-of select="bizilekua/herrialdea"></xsl:value-of>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:value-of select="bizilekua/probintzia"></xsl:value-of>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:value-of select="bizilekua/herria"></xsl:value-of>
-                                        </p>
-                                        <p>
-                                            <xsl:value-of select="telefonoak/mugikorra"></xsl:value-of>
-                                        </p>
-                                    </div>
+                                    </a>
+                                    <p>
+                                        <xsl:value-of select="izena"></xsl:value-of>
+                                        <xsl:text> </xsl:text>
+                                        <xsl:value-of select="abizena1"></xsl:value-of>
+                                        <xsl:text> </xsl:text>
+                                        <xsl:value-of select="abizena2"></xsl:value-of>
+                                    </p>
+                                    <p>Jaiotze data:<xsl:value-of select="jaoiotze_data"></xsl:value-of></p>
+                                    <p>
+                                        <xsl:value-of select="bizilekua/herrialdea"></xsl:value-of>
+                                        <xsl:text> </xsl:text>
+                                        <xsl:value-of select="bizilekua/probintzia"></xsl:value-of>
+                                        <xsl:text> </xsl:text>
+                                        <xsl:value-of select="bizilekua/herria"></xsl:value-of>
+                                    </p>
+                                    <p>
+                                        <xsl:value-of select="telefonoak/mugikorra"></xsl:value-of>
+                                    </p>
+                                </div>
                             </xsl:if>
                         </xsl:for-each>
                     </div>

@@ -2,8 +2,10 @@
 <erakundea xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="intra.xsd">
     <departamentuak>
+        <!-- Departamentua 1-->
         <departamentua id="1">
             <izena>Giza_baliabideak</izena>
+            <argazkia>./image/departamentua.png</argazkia>
             <helbidea>
                 <herrialdea>España</herrialdea>
                 <probintzia>Bizkaia</probintzia>
@@ -16,8 +18,10 @@
             <menpeko-departamentua></menpeko-departamentua>
             <departamentu-burua>4</departamentu-burua>
         </departamentua>
+        <!-- Departamentua 2-->
         <departamentua id="2">
             <izena>Marketin</izena>
+            <argazkia>./image/departamentua.png</argazkia>
             <helbidea>
                 <herrialdea>España</herrialdea>
                 <probintzia>Bizkaia</probintzia>
@@ -30,8 +34,10 @@
             <menpeko-departamentua></menpeko-departamentua>
             <departamentu-burua>5</departamentu-burua>
         </departamentua>
+        <!-- Departamentua 3-->
         <departamentua id="3">
             <izena>Zuzendaritza Orokorra</izena>
+            <argazkia>./image/departamentua.png</argazkia>
             <helbidea>
                 <herrialdea>España</herrialdea>
                 <probintzia>Bizkaia</probintzia>
@@ -44,8 +50,10 @@
             <menpeko-departamentua></menpeko-departamentua>
             <departamentu-burua>3</departamentu-burua>
         </departamentua>
+        <!-- Departamentua 4-->
         <departamentua id="4">
             <izena>Lege-Saila</izena>
+            <argazkia>./image/departamentua.png</argazkia>
             <helbidea>
                 <herrialdea>España</herrialdea>
                 <probintzia>Bizkaia</probintzia>
@@ -58,8 +66,10 @@
             <menpeko-departamentua></menpeko-departamentua>
             <departamentu-burua>8</departamentu-burua>
         </departamentua>
+        <!-- Departamentua 5-->
         <departamentua id="5">
             <izena>Salmentak</izena>
+            <argazkia>./image/departamentua.png</argazkia>
             <helbidea>
                 <herrialdea>España</herrialdea>
                 <probintzia>Bizkaia</probintzia>
@@ -72,8 +82,10 @@
             <menpeko-departamentua></menpeko-departamentua>
             <departamentu-burua>14</departamentu-burua>
         </departamentua>
+        <!-- Departamentua 6-->
         <departamentua id="6">
             <izena>Ekoizpena</izena>
+            <argazkia>./image/departamentua.png</argazkia>
             <helbidea>
                 <herrialdea>España</herrialdea>
                 <probintzia>Bizkaia</probintzia>
@@ -89,7 +101,7 @@
 
     </departamentuak>
     <langileak>
-        <!-- Empleado 1 -->
+        <!-- Langilea 1 -->
         <langilea id="1">
             <izena>Aitzol</izena>
             <abizena1>Sagardui</abizena1>
@@ -115,7 +127,7 @@
             <rola>rh</rola>
             <departamentua>1</departamentua>
         </langilea>
-        <!-- Empleado 2 -->
+        <!-- Langilea 2 -->
         <langilea id="2">
             <izena>Mireia</izena>
             <abizena1>López</abizena1>
@@ -142,7 +154,7 @@
             <departamentua>1</departamentua>
         </langilea>
 
-        <!-- Empleado 3 -->
+        <!-- Langilea 3 -->
         <langilea id="3">
             <izena>Jon</izena>
             <abizena1>González</abizena1>
@@ -169,7 +181,7 @@
             <departamentua>6</departamentua>
         </langilea>
 
-        <!-- Empleado 4 -->
+        <!-- Langilea 4 -->
         <langilea id="4">
             <izena>María</izena>
             <abizena1>Rodríguez</abizena1>
@@ -196,7 +208,7 @@
             <departamentua>6</departamentua>
         </langilea>
 
-        <!-- Empleado 5 -->
+        <!-- Langilea 5 -->
         <langilea id="5">
             <izena>Javier</izena>
             <abizena1>Martínez</abizena1>
@@ -223,7 +235,7 @@
             <departamentua>5</departamentua>
         </langilea>
 
-        <!-- Empleado 6 -->
+        <!-- Langilea 6 -->
         <langilea id="6">
             <izena>Laura</izena>
             <abizena1>Fernández</abizena1>
@@ -250,7 +262,7 @@
             <departamentua>4</departamentua>
         </langilea>
 
-        <!-- Empleado 7 -->
+        <!-- Langilea 7 -->
         <langilea id="7">
             <izena>David</izena>
             <abizena1>Gómez</abizena1>
@@ -278,7 +290,7 @@
             <departamentua>3</departamentua>
         </langilea>
 
-        <!-- Empleado 8 -->
+        <!-- Langilea 8 -->
         <langilea id="8">
             <izena>Sara</izena>
             <abizena1>López</abizena1>
@@ -305,7 +317,7 @@
             <departamentua>4</departamentua>
         </langilea>
 
-        <!-- Empleado 9 -->
+        <!-- Langilea 9 -->
         <langilea id="9">
             <izena>Pablo</izena>
             <abizena1>García</abizena1>
@@ -332,7 +344,7 @@
             <departamentua>5</departamentua>
         </langilea>
 
-        <!-- Empleado 10 -->
+        <!-- Langilea 10 -->
         <langilea id="10">
             <izena>Lucía</izena>
             <abizena1>Rodríguez</abizena1>
@@ -359,7 +371,7 @@
             <departamentua>6</departamentua>
         </langilea>
 
-        <!-- Empleado 11 -->
+        <!-- Langilea 11 -->
         <langilea id="11">
             <izena>Carlos</izena>
             <abizena1>Fernández</abizena1>
@@ -386,7 +398,7 @@
             <departamentua>2</departamentua>
         </langilea>
 
-        <!-- Empleado 12 -->
+        <!-- Langilea 12 -->
         <langilea id="12">
             <izena>Ana</izena>
             <abizena1>García</abizena1>
@@ -414,7 +426,7 @@
 
         </langilea>
 
-        <!-- Empleado 13 -->
+        <!-- Langilea 13 -->
         <langilea id="13">
             <izena>Marta</izena>
             <abizena1>Martínez</abizena1>
@@ -442,7 +454,7 @@
 
         </langilea>
 
-        <!-- Empleado 14 -->
+        <!-- Langilea 14 -->
         <langilea id="14">
             <izena>Diego</izena>
             <abizena1>Fernández</abizena1>
@@ -469,7 +481,7 @@
             <departamentua>5</departamentua>
         </langilea>
 
-        <!-- Empleado 15 -->
+        <!-- Langilea 15 -->
         <langilea id="15">
             <izena>Elena</izena>
             <abizena1>López</abizena1>
@@ -497,37 +509,44 @@
         </langilea>
     </langileak>
     <rolak>
+        <!-- rol 1-->
         <rol id="an">
             <izena>Analista</izena>
             <deskripzioa>Analista bat datu, informazio edo egoera konplexuak aztertzen
                 espezializatutako profesional bat da, ondorio esanguratsuak lortzeko eta erabaki
                 arrazoituak hartzeko.</deskripzioa>
         </rol>
+        <!-- rol 2-->
         <rol id="db">
             <izena>Departamentu burua</izena>
             <deskripzioa>Departamentu-buruak beren arloaren kudeaketan zentratzen dira: jarduerak
                 banatzen dituzte, pertsonak antolatzen dituzte, erabakiak hartzen dituzte eta
                 aginduak ematen dituzte</deskripzioa>
         </rol>
+        <!-- rol 3-->
         <rol id="pr">
             <izena>Programatzailea</izena>
             <deskripzioa>Prototipoak programazio-lengoaia baten bidez inplementatzeaz arduratzen da.</deskripzioa>
         </rol>
+        <!-- rol 4-->
         <rol id="rh">
             <izena>RRHH</izena>
             <deskripzioa>Politikak garatuz eta prozedurak kudeatuz talentua bildu, lagundu eta
                 garatuko duen kualifikatua.</deskripzioa>
         </rol>
+        <!-- rol 5-->
         <rol id="co">
             <izena>CEO</izena>
             <deskripzioa>Erakunde baten kudeaketa eta zuzendaritza administratiboko agintari gorena</deskripzioa>
         </rol>
+        <!-- rol 6-->
         <rol id="ab">
             <izena>Abokatua</izena>
             <deskripzioa>Abokatuaren ardura izango da lege-aholkularitza ematea, bezeroak
                 ordezkatzea lege-gaietan, eta lege eta erregulazio aplikagarriak betetzen direla
                 bermatzea.</deskripzioa>
         </rol>
+        <!-- rol 7-->
         <rol id="ek">
             <izena>Ekonomista</izena>
             <deskripzioa>Datu estatistikoak aztertzen dituzte eta, neurri batean, eredu matematiko

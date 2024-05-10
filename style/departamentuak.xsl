@@ -5,7 +5,7 @@
         <html lang="eu">
 
             <head>
-                <title>Intraneteko Langileen erregistroa</title>
+                <title>Intraneteko Departamentuen erregistroa</title>
                 <meta name="keywords" content="Departamentuak, Dinamikoa, Filtroa, Schotify" />
                 <meta name="author" content="HEA" />
                 <meta name="description" content="Departamentuak ikertzeko gunea" />
@@ -46,24 +46,37 @@
                     <div class="grid-cont">
                         <xsl:for-each select="departamentuak/departamentua">
                             <div class="dep">
+                                <img class="largazkia">
+                                    <xsl:attribute name="src"><xsl:value-of
+                                            select="argazkia"></xsl:value-of></xsl:attribute>
+                                    <xsl:attribute name="alt"><xsl:value-of
+                                            select="izena"></xsl:value-of></xsl:attribute>
+                                </img>
                                 <p>
                                     <xsl:text>Departamentu Izena: </xsl:text>
                                     <xsl:value-of select="izena" />
-                                    <br />
+                                </p>
+                                <p>
                                     <xsl:text>Probintzia: </xsl:text>
                                     <xsl:value-of select="helbidea/probintzia" />
-                                    <br />
+                                </p>
+                                <p>
                                     <xsl:text>Herria: </xsl:text>
                                     <xsl:value-of select="helbidea/herria" />
-                                    <br />
+                                </p>
+                                <p>
                                     <xsl:text>Kalea: </xsl:text>
                                     <xsl:value-of select="helbidea/kalea" />
-                                    <br />
+                                </p>
+                                <p>
                                     <xsl:text>Telefonoa: </xsl:text>
                                     <xsl:value-of select="telefonoa" />
-                                    <br />
+                                </p>
+                                <p>
                                     <xsl:text>E-posta: </xsl:text>
-                                    <xsl:value-of select="e_posta" />
+                                    <a href="{e_posta}">
+                                        <xsl:value-of select="e_posta" />
+                                    </a>
                                 </p>
                             </div>
                         </xsl:for-each>
@@ -83,7 +96,7 @@
                                     <a rel="license"
                                         href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
                                         <img alt="Licencia Creative Commons" style="border-width:0"
-                                            src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
+                                            src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
                                     </a>
                                 </li>
                             </ul>

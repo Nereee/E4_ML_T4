@@ -291,7 +291,8 @@ h1 {
     color: #ffffff;
 }
 
-.lan img {
+.lan img,
+.dep img {
     margin: 0 auto;
     width: 50%;
     height: auto;
