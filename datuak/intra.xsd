@@ -20,8 +20,7 @@
                                                         <xsd:complexType>
                                                             <xsd:simpleContent>
                                                                 <xsd:extension base="xsd:string">
-                                                                    <xsd:attribute name="posta_k"
-                                                                        type="xsd:string" />
+                                                                    <xsd:attribute name="posta_k" type="xsd:string" />
                                                                 </xsd:extension>
                                                             </xsd:simpleContent>
                                                         </xsd:complexType>
@@ -61,8 +60,7 @@
                                                         <xsd:complexType>
                                                             <xsd:simpleContent>
                                                                 <xsd:extension base="xsd:string">
-                                                                    <xsd:attribute name="posta_k"
-                                                                        type="xsd:string" />
+                                                                    <xsd:attribute name="posta_k" type="xsd:string" />
                                                                 </xsd:extension>
                                                             </xsd:simpleContent>
                                                         </xsd:complexType>
@@ -90,8 +88,7 @@
                                         <xsd:element name="argazkia" type="xsd:string" />
                                         <xsd:element name="soldata" type="xsd:decimal" />
                                         <xsd:element name="kontratazio-data" type="xsd:string" />
-                                        <xsd:element name="rola" type="xsd:string"
-                                            maxOccurs="unbounded" />
+                                        <xsd:element name="rola" type="xsd:string" maxOccurs="unbounded" />
                                         <xsd:element name="departamentua" type="xsd:string" />
                                     </xsd:sequence>
                                     <xsd:attribute name="id" type="xsd:string" />

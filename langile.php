@@ -52,14 +52,11 @@ $proc->setParameter('', 'id_departamentua', $departamentua);
 // XSLT fitxategiaren karga
 if ($departamentua == "" and $rolak == "") {
     $proc->importStylesheet($arauak);
-}
-else if ($rolak == "") {
+} else if ($rolak == "") {
     $proc->importStylesheet($arauakD);
-}
-else if ($departamentua == "") {
+} else if ($departamentua == "") {
     $proc->importStylesheet($arauakR);
-}
-else {
+} else {
     $proc->importStylesheet($arauakRD);
 }
 

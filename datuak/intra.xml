@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<erakundea xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="intra.xsd">
+<erakundea xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="intra.xsd">
     <departamentuak>
         <!-- Departamentua 1-->
         <departamentua id="1">
