@@ -86,18 +86,18 @@
                                 </a>
                                 <p>
                                     <xsl:value-of select="izena"></xsl:value-of>
-                                    <xsl:text></xsl:text>
+                                    <xsl:text> </xsl:text>
                                     <xsl:value-of select="abizena1"></xsl:value-of>
-                                    <xsl:text></xsl:text>
+                                    <xsl:text> </xsl:text>
                                     <xsl:value-of select="abizena2"></xsl:value-of>
                                 </p>
                                 <p>Jaiotze data:<xsl:value-of select="jaoiotze_data"></xsl:value-of>
                                 </p>
                                 <p>
                                     <xsl:value-of select="bizilekua/herrialdea"></xsl:value-of>
-                                    <xsl:text></xsl:text>
+                                    <xsl:text> </xsl:text>
                                     <xsl:value-of select="bizilekua/probintzia"></xsl:value-of>
-                                    <xsl:text></xsl:text>
+                                    <xsl:text> </xsl:text>
                                     <xsl:value-of select="bizilekua/herria"></xsl:value-of>
                                 </p>
                                 <p>
