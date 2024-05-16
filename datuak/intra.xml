@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<erakundea>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<erakundea xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="intra.xsd">
     <departamentuak>
+        <!-- Departamentua 1-->
         <departamentua id="1">
             <izena>Giza_baliabideak</izena>
+            <argazkia>./image/departamentua.png</argazkia>
             <helbidea>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48011">Bilbo</herria>
                 <kalea>Juan de la Cosa</kalea>
                 <zenbakia>15</zenbakia>
@@ -15,11 +17,13 @@
             <menpeko-departamentua></menpeko-departamentua>
             <departamentu-burua>4</departamentu-burua>
         </departamentua>
+        <!-- Departamentua 2-->
         <departamentua id="2">
             <izena>Marketin</izena>
+            <argazkia>./image/departamentua.png</argazkia>
             <helbidea>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48011">Bilbo</herria>
                 <kalea>Calle Santutxu</kalea>
                 <zenbakia>20</zenbakia>
@@ -29,11 +33,13 @@
             <menpeko-departamentua></menpeko-departamentua>
             <departamentu-burua>5</departamentu-burua>
         </departamentua>
+        <!-- Departamentua 3-->
         <departamentua id="3">
             <izena>Zuzendaritza Orokorra</izena>
+            <argazkia>./image/departamentua.png</argazkia>
             <helbidea>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48009">Bilbo</herria>
                 <kalea>Alameda de Mazarredo</kalea>
                 <zenbakia>25</zenbakia>
@@ -43,11 +49,13 @@
             <menpeko-departamentua></menpeko-departamentua>
             <departamentu-burua>3</departamentu-burua>
         </departamentua>
+        <!-- Departamentua 4-->
         <departamentua id="4">
             <izena>Lege-Saila</izena>
+            <argazkia>./image/departamentua.png</argazkia>
             <helbidea>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48480">Arrigorriaga</herria>
                 <kalea>Calle Dr.Fleming</kalea>
                 <zenbakia>4</zenbakia>
@@ -57,11 +65,13 @@
             <menpeko-departamentua></menpeko-departamentua>
             <departamentu-burua>8</departamentu-burua>
         </departamentua>
+        <!-- Departamentua 5-->
         <departamentua id="5">
             <izena>Salmentak</izena>
+            <argazkia>./image/departamentua.png</argazkia>
             <helbidea>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48970">Basauri</herria>
                 <kalea>Kareaga Goikoa</kalea>
                 <zenbakia>16</zenbakia>
@@ -71,11 +81,13 @@
             <menpeko-departamentua></menpeko-departamentua>
             <departamentu-burua>14</departamentu-burua>
         </departamentua>
+        <!-- Departamentua 6-->
         <departamentua id="6">
             <izena>Ekoizpena</izena>
+            <argazkia>./image/departamentua.png</argazkia>
             <helbidea>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48480">Arrigorriaga</herria>
                 <kalea>Santa Isabel</kalea>
                 <zenbakia>7</zenbakia>
@@ -88,7 +100,7 @@
 
     </departamentuak>
     <langileak>
-        <!-- Empleado 1 -->
+        <!-- Langilea 1 -->
         <langilea id="1">
             <izena>Aitzol</izena>
             <abizena1>Sagardui</abizena1>
@@ -96,7 +108,7 @@
             <jaoiotze_data>2005-03-11</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Bizkaia</provintzia>
+                <probintzia>Bizkaia</probintzia>
                 <herria posta_k="48480">Arrigorriaga</herria>
                 <kalea>Ramon y cajal</kalea>
                 <zenbakia>9</zenbakia>
@@ -114,7 +126,7 @@
             <rola>rh</rola>
             <departamentua>1</departamentua>
         </langilea>
-        <!-- Empleado 2 -->
+        <!-- Langilea 2 -->
         <langilea id="2">
             <izena>Mireia</izena>
             <abizena1>López</abizena1>
@@ -122,7 +134,7 @@
             <jaoiotze_data>1990-07-15</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Barcelona</provintzia>
+                <probintzia>Barcelona</probintzia>
                 <herria posta_k="08002">Barcelona</herria>
                 <kalea>Avenida Diagonal</kalea>
                 <zenbakia>123</zenbakia>
@@ -141,7 +153,7 @@
             <departamentua>1</departamentua>
         </langilea>
 
-        <!-- Empleado 3 -->
+        <!-- Langilea 3 -->
         <langilea id="3">
             <izena>Jon</izena>
             <abizena1>González</abizena1>
@@ -149,7 +161,7 @@
             <jaoiotze_data>1985-12-03</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Madrid</provintzia>
+                <probintzia>Madrid</probintzia>
                 <herria posta_k="28001">Madrid</herria>
                 <kalea>Calle Gran Vía</kalea>
                 <zenbakia>45</zenbakia>
@@ -168,7 +180,7 @@
             <departamentua>6</departamentua>
         </langilea>
 
-        <!-- Empleado 4 -->
+        <!-- Langilea 4 -->
         <langilea id="4">
             <izena>María</izena>
             <abizena1>Rodríguez</abizena1>
@@ -176,7 +188,7 @@
             <jaoiotze_data>1978-05-20</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Valencia</provintzia>
+                <probintzia>Valencia</probintzia>
                 <herria posta_k="46001">Valencia</herria>
                 <kalea>Avenida del Puerto</kalea>
                 <zenbakia>78</zenbakia>
@@ -195,7 +207,7 @@
             <departamentua>6</departamentua>
         </langilea>
 
-        <!-- Empleado 5 -->
+        <!-- Langilea 5 -->
         <langilea id="5">
             <izena>Javier</izena>
             <abizena1>Martínez</abizena1>
@@ -203,7 +215,7 @@
             <jaoiotze_data>1993-02-28</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Alicante</provintzia>
+                <probintzia>Alicante</probintzia>
                 <herria posta_k="03001">Alicante</herria>
                 <kalea>Paseo de la Explanada</kalea>
                 <zenbakia>15</zenbakia>
@@ -222,7 +234,7 @@
             <departamentua>5</departamentua>
         </langilea>
 
-        <!-- Empleado 6 -->
+        <!-- Langilea 6 -->
         <langilea id="6">
             <izena>Laura</izena>
             <abizena1>Fernández</abizena1>
@@ -230,7 +242,7 @@
             <jaoiotze_data>1989-09-10</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Sevilla</provintzia>
+                <probintzia>Sevilla</probintzia>
                 <herria posta_k="41001">Sevilla</herria>
                 <kalea>Calle Sierpes</kalea>
                 <zenbakia>20</zenbakia>
@@ -249,7 +261,7 @@
             <departamentua>4</departamentua>
         </langilea>
 
-        <!-- Empleado 7 -->
+        <!-- Langilea 7 -->
         <langilea id="7">
             <izena>David</izena>
             <abizena1>Gómez</abizena1>
@@ -257,7 +269,7 @@
             <jaoiotze_data>1992-08-25</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Madrid</provintzia>
+                <probintzia>Madrid</probintzia>
                 <herria posta_k="28010">Madrid</herria>
                 <kalea>Calle Princesa</kalea>
                 <zenbakia>67</zenbakia>
@@ -272,12 +284,12 @@
             <argazkia>./image/empleado.png</argazkia>
             <soldata>2800</soldata>
             <kontratazio-data>2014-03-15</kontratazio-data>
-            <departamentua>3</departamentua>
             <rola>co</rola>
             <rola>db</rola>
+            <departamentua>3</departamentua>
         </langilea>
 
-        <!-- Empleado 8 -->
+        <!-- Langilea 8 -->
         <langilea id="8">
             <izena>Sara</izena>
             <abizena1>López</abizena1>
@@ -285,7 +297,7 @@
             <jaoiotze_data>1987-04-18</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Valencia</provintzia>
+                <probintzia>Valencia</probintzia>
                 <herria posta_k="46021">Valencia</herria>
                 <kalea>Calle de la Paz</kalea>
                 <zenbakia>34</zenbakia>
@@ -304,7 +316,7 @@
             <departamentua>4</departamentua>
         </langilea>
 
-        <!-- Empleado 9 -->
+        <!-- Langilea 9 -->
         <langilea id="9">
             <izena>Pablo</izena>
             <abizena1>García</abizena1>
@@ -312,7 +324,7 @@
             <jaoiotze_data>1984-11-12</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Barcelona</provintzia>
+                <probintzia>Barcelona</probintzia>
                 <herria posta_k="08001">Barcelona</herria>
                 <kalea>Ronda Sant Pere</kalea>
                 <zenbakia>56</zenbakia>
@@ -331,7 +343,7 @@
             <departamentua>5</departamentua>
         </langilea>
 
-        <!-- Empleado 10 -->
+        <!-- Langilea 10 -->
         <langilea id="10">
             <izena>Lucía</izena>
             <abizena1>Rodríguez</abizena1>
@@ -339,7 +351,7 @@
             <jaoiotze_data>1995-03-29</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Sevilla</provintzia>
+                <probintzia>Sevilla</probintzia>
                 <herria posta_k="41010">Sevilla</herria>
                 <kalea>Avenida de la Constitución</kalea>
                 <zenbakia>78</zenbakia>
@@ -358,7 +370,7 @@
             <departamentua>6</departamentua>
         </langilea>
 
-        <!-- Empleado 11 -->
+        <!-- Langilea 11 -->
         <langilea id="11">
             <izena>Carlos</izena>
             <abizena1>Fernández</abizena1>
@@ -366,7 +378,7 @@
             <jaoiotze_data>1980-06-05</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Madrid</provintzia>
+                <probintzia>Madrid</probintzia>
                 <herria posta_k="28025">Madrid</herria>
                 <kalea>Calle Mayor</kalea>
                 <zenbakia>90</zenbakia>
@@ -381,11 +393,11 @@
             <argazkia>./image/empleado.png</argazkia>
             <soldata>3200</soldata>
             <kontratazio-data>2003-12-15</kontratazio-data>
-            <departamentua>2</departamentua>
             <rola>ek</rola>
+            <departamentua>2</departamentua>
         </langilea>
 
-        <!-- Empleado 12 -->
+        <!-- Langilea 12 -->
         <langilea id="12">
             <izena>Ana</izena>
             <abizena1>García</abizena1>
@@ -393,7 +405,7 @@
             <jaoiotze_data>1991-10-20</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Valencia</provintzia>
+                <probintzia>Valencia</probintzia>
                 <herria posta_k="46002">Valencia</herria>
                 <kalea>Calle Colón</kalea>
                 <zenbakia>35</zenbakia>
@@ -408,11 +420,12 @@
             <argazkia>./image/empleada.png</argazkia>
             <soldata>3000</soldata>
             <kontratazio-data>2013-05-18</kontratazio-data>
-            <departamentua>2</departamentua>
             <rola>ek</rola>
+            <departamentua>2</departamentua>
+
         </langilea>
 
-        <!-- Empleado 13 -->
+        <!-- Langilea 13 -->
         <langilea id="13">
             <izena>Marta</izena>
             <abizena1>Martínez</abizena1>
@@ -420,7 +433,7 @@
             <jaoiotze_data>1986-07-08</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Barcelona</provintzia>
+                <probintzia>Barcelona</probintzia>
                 <herria posta_k="08015">Barcelona</herria>
                 <kalea>Paseo de Gracia</kalea>
                 <zenbakia>78</zenbakia>
@@ -435,11 +448,12 @@
             <argazkia>./image/empleada.png</argazkia>
             <soldata>2900</soldata>
             <kontratazio-data>2010-08-30</kontratazio-data>
-            <departamentua>4</departamentua>
             <rola>ab</rola>
+            <departamentua>4</departamentua>
+
         </langilea>
 
-        <!-- Empleado 14 -->
+        <!-- Langilea 14 -->
         <langilea id="14">
             <izena>Diego</izena>
             <abizena1>Fernández</abizena1>
@@ -447,7 +461,7 @@
             <jaoiotze_data>1983-04-15</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Madrid</provintzia>
+                <probintzia>Madrid</probintzia>
                 <herria posta_k="28020">Madrid</herria>
                 <kalea>Calle Alcalá</kalea>
                 <zenbakia>120</zenbakia>
@@ -466,7 +480,7 @@
             <departamentua>5</departamentua>
         </langilea>
 
-        <!-- Empleado 15 -->
+        <!-- Langilea 15 -->
         <langilea id="15">
             <izena>Elena</izena>
             <abizena1>López</abizena1>
@@ -474,7 +488,7 @@
             <jaoiotze_data>1994-01-25</jaoiotze_data>
             <bizilekua>
                 <herrialdea>España</herrialdea>
-                <provintzia>Sevilla</provintzia>
+                <probintzia>Sevilla</probintzia>
                 <herria posta_k="41005">Sevilla</herria>
                 <kalea>Avenida de la Constitución</kalea>
                 <zenbakia>45</zenbakia>
@@ -494,37 +508,44 @@
         </langilea>
     </langileak>
     <rolak>
+        <!-- rol 1-->
         <rol id="an">
             <izena>Analista</izena>
             <deskripzioa>Analista bat datu, informazio edo egoera konplexuak aztertzen
                 espezializatutako profesional bat da, ondorio esanguratsuak lortzeko eta erabaki
                 arrazoituak hartzeko.</deskripzioa>
         </rol>
+        <!-- rol 2-->
         <rol id="db">
             <izena>Departamentu burua</izena>
             <deskripzioa>Departamentu-buruak beren arloaren kudeaketan zentratzen dira: jarduerak
                 banatzen dituzte, pertsonak antolatzen dituzte, erabakiak hartzen dituzte eta
                 aginduak ematen dituzte</deskripzioa>
         </rol>
+        <!-- rol 3-->
         <rol id="pr">
             <izena>Programatzailea</izena>
             <deskripzioa>Prototipoak programazio-lengoaia baten bidez inplementatzeaz arduratzen da.</deskripzioa>
         </rol>
+        <!-- rol 4-->
         <rol id="rh">
             <izena>RRHH</izena>
             <deskripzioa>Politikak garatuz eta prozedurak kudeatuz talentua bildu, lagundu eta
                 garatuko duen kualifikatua.</deskripzioa>
         </rol>
+        <!-- rol 5-->
         <rol id="co">
             <izena>CEO</izena>
             <deskripzioa>Erakunde baten kudeaketa eta zuzendaritza administratiboko agintari gorena</deskripzioa>
         </rol>
+        <!-- rol 6-->
         <rol id="ab">
             <izena>Abokatua</izena>
             <deskripzioa>Abokatuaren ardura izango da lege-aholkularitza ematea, bezeroak
                 ordezkatzea lege-gaietan, eta lege eta erregulazio aplikagarriak betetzen direla
                 bermatzea.</deskripzioa>
         </rol>
+        <!-- rol 7-->
         <rol id="ek">
             <izena>Ekonomista</izena>
             <deskripzioa>Datu estatistikoak aztertzen dituzte eta, neurri batean, eredu matematiko

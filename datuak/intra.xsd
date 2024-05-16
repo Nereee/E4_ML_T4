@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="erakundea">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="departamentuak">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="departamentua" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="izena" type="xsd:string" />
+                                        <xsd:element name="argazkia" type="xsd:string" />
+                                        <xsd:element name="helbidea">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="herrialdea" type="xsd:string" />
+                                                    <xsd:element name="probintzia" type="xsd:string" />
+                                                    <xsd:element name="herria">
+                                                        <xsd:complexType>
+                                                            <xsd:simpleContent>
+                                                                <xsd:extension base="xsd:string">
+                                                                    <xsd:attribute name="posta_k" type="xsd:string" />
+                                                                </xsd:extension>
+                                                            </xsd:simpleContent>
+                                                        </xsd:complexType>
+                                                    </xsd:element>
+                                                    <xsd:element name="kalea" type="xsd:string" />
+                                                    <xsd:element name="zenbakia" type="xsd:string" />
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name="telefonoa" type="xsd:string" />
+                                        <xsd:element name="e_posta" type="xsd:string" />
+                                        <xsd:element name="menpeko-departamentua" type="xsd:string" />
+                                        <xsd:element name="departamentu-burua" type="xsd:string" />
+                                    </xsd:sequence>
+                                    <xsd:attribute name="id" type="xsd:string" />
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="langileak">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="langilea" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="izena" type="xsd:string" />
+                                        <xsd:element name="abizena1" type="xsd:string" />
+                                        <xsd:element name="abizena2" type="xsd:string" />
+                                        <xsd:element name="jaoiotze_data" type="xsd:string" />
+                                        <xsd:element name="bizilekua">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="herrialdea" type="xsd:string" />
+                                                    <xsd:element name="probintzia" type="xsd:string" />
+                                                    <xsd:element name="herria">
+                                                        <xsd:complexType>
+                                                            <xsd:simpleContent>
+                                                                <xsd:extension base="xsd:string">
+                                                                    <xsd:attribute name="posta_k" type="xsd:string" />
+                                                                </xsd:extension>
+                                                            </xsd:simpleContent>
+                                                        </xsd:complexType>
+                                                    </xsd:element>
+                                                    <xsd:element name="kalea" type="xsd:string" />
+                                                    <xsd:element name="zenbakia" type="xsd:string" />
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name="telefonoak">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="mugikorra" type="xsd:string" />
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name="e-postak">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="pertsonala" type="xsd:string" />
+                                                    <xsd:element name="lanekoa" type="xsd:string" />
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name="argazkia" type="xsd:string" />
+                                        <xsd:element name="soldata" type="xsd:decimal" />
+                                        <xsd:element name="kontratazio-data" type="xsd:string" />
+                                        <xsd:element name="rola" type="xsd:string" maxOccurs="unbounded" />
+                                        <xsd:element name="departamentua" type="xsd:string" />
+                                    </xsd:sequence>
+                                    <xsd:attribute name="id" type="xsd:string" />
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="rolak">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="rol" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="izena" type="xsd:string" />
+                                        <xsd:element name="deskripzioa" type="xsd:string" />
+                                    </xsd:sequence>
+                                    <xsd:attribute name="id" type="xsd:string" />
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
