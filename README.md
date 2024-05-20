@@ -21,7 +21,7 @@ Proiektua erabiltzeko, jarraitu hurrengo pausoak:
 
 Laguntza behar baduzu, mesedez, jarri harremanetan gurekin:
 
-- Emaila: hector.martineznu@elorrieta-errekamari.com
+- Emaila: herector.martineznu@elorrieta-errekamari.com
 
 ## Eskerrik asko!
 
